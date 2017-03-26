@@ -520,7 +520,7 @@ public class GuiCreateWorld extends GuiScreen
 
     /**
      * Set the initial values of a new world to create, from the values from an existing world.
-     *  
+     *
      * Called after construction when a user selects the "Recreate" button.
      */
     public void recreateFromExistingWorld(WorldInfo original)

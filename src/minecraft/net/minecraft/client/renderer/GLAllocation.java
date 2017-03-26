@@ -8,10 +8,10 @@ import org.lwjgl.util.glu.GLU;
 
 public class GLAllocation
 {
-
     /**
      * Generates the specified number of display lists and returns the first index.
      */
+
     public static synchronized int generateDisplayLists(int range)
     {
         int i = GlStateManager.glGenLists(range);
@@ -47,6 +47,7 @@ public class GLAllocation
     /**
      * Creates and returns a direct byte buffer with the specified capacity. Applies native ordering to speed up access.
      */
+
     public static synchronized ByteBuffer createDirectByteBuffer(int capacity)
     {
         return ByteBuffer.allocateDirect(capacity).order(ByteOrder.nativeOrder());

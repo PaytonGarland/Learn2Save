@@ -131,26 +131,35 @@ public class BlockPressurePlateWeighted extends BlockBasePressurePlate
         {
             this.playClickOnSound(worldIn, pos);
         }
-        
+
         String json = "";
-		URL customerInfo;
-		try {
-			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca/accounts?key=37eda199c5d3895687d139770b1d9c9a");
-	        BufferedReader in = new BufferedReader(
-	        new InputStreamReader(customerInfo.openStream()));
-	
-	        String inputLine;
-	        while ((inputLine = in.readLine()) != null)
-	            json = json + inputLine;
-	        in.close();
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+        URL customerInfo;
+
+        try
+        {
+            customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca/accounts?key=37eda199c5d3895687d139770b1d9c9a");
+            BufferedReader in = new BufferedReader(
+                new InputStreamReader(customerInfo.openStream()));
+            String inputLine;
+
+            while ((inputLine = in.readLine()) != null)
+            {
+                json = json + inputLine;
+            }
+
+            in.close();
+        }
+        catch (MalformedURLException e)
+        {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        catch (IOException e)
+        {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
 //		Gson gson = new Gson();
 //		SavingsBalance current = gson.fromJson(json, SavingsBalance.class);
 //		Minecraft.getMinecraft().player.sendChatMessage("Your current balance is: " + current.getBalance() + " coins.");

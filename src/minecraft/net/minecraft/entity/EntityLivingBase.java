@@ -1321,7 +1321,7 @@ public abstract class EntityLivingBase extends Entity
      * .4}.
 
      * The entity's existing horizontal velocity is halved, and if the entity is on the ground the Y-velocity is too.
-     *  
+     *
      * @param strength Magnitude of the knockback vector, and also the Y-velocity to add if the entity is on the ground.
      * @param xRatio The X part of the direction ratio of the knockback vector.
      * @param zRatio The Z part of the direction ratio of the knockback vector.

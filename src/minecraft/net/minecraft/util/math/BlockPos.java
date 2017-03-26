@@ -301,7 +301,7 @@ public class BlockPos extends Vec3i
 
     /**
      * Returns a version of this BlockPos that is guaranteed to be immutable.
-     *  
+     *
      * <p>When storing a BlockPos given to you for an extended period of time, make sure you
      * use this in case the value is changed internally.</p>
      */

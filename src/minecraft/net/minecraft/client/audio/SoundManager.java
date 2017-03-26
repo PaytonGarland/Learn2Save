@@ -113,6 +113,7 @@ public class SoundManager
     /**
      * Tries to add the paulscode library and the relevant codecs. If it fails, the master volume  will be set to zero.
      */
+
     private synchronized void loadSoundSystem()
     {
         if (!this.loaded)

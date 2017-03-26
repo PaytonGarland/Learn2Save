@@ -184,28 +184,38 @@ public abstract class BlockButton extends BlockDirectional
     {
         if (((Boolean)state.getValue(POWERED)).booleanValue())
         {
-        	String json = "";
-    		URL customerInfo;
-    		try {
-    			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
-    	        BufferedReader in = new BufferedReader(
-    	        new InputStreamReader(customerInfo.openStream()));
-    	
-    	        String inputLine;
-    	        while ((inputLine = in.readLine()) != null)
-    	            json = json + inputLine;
-    	        in.close();
-    		} catch (MalformedURLException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-    		Customer customer = new Customer();
-    		Gson gson = new Gson();
-    		Customer top = gson.fromJson(json, Customer.class);
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
+            String json = "";
+            URL customerInfo;
+
+            try
+            {
+                customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
+                BufferedReader in = new BufferedReader(
+                    new InputStreamReader(customerInfo.openStream()));
+                String inputLine;
+
+                while ((inputLine = in.readLine()) != null)
+                {
+                    json = json + inputLine;
+                }
+
+                in.close();
+            }
+            catch (MalformedURLException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            catch (IOException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+            Customer customer = new Customer();
+            Gson gson = new Gson();
+            Customer top = gson.fromJson(json, Customer.class);
+            Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
             return true;
         }
         else
@@ -216,27 +226,37 @@ public abstract class BlockButton extends BlockDirectional
             this.notifyNeighbors(worldIn, pos, (EnumFacing)state.getValue(FACING));
             worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
             String json = "";
-    		URL customerInfo;
-    		try {
-    			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
-    	        BufferedReader in = new BufferedReader(
-    	        new InputStreamReader(customerInfo.openStream()));
-    	
-    	        String inputLine;
-    	        while ((inputLine = in.readLine()) != null)
-    	            json = json + inputLine;
-    	        in.close();
-    		} catch (MalformedURLException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-    		Customer customer = new Customer();
-    		Gson gson = new Gson();
-    		Customer top = gson.fromJson(json, Customer.class);
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
+            URL customerInfo;
+
+            try
+            {
+                customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
+                BufferedReader in = new BufferedReader(
+                    new InputStreamReader(customerInfo.openStream()));
+                String inputLine;
+
+                while ((inputLine = in.readLine()) != null)
+                {
+                    json = json + inputLine;
+                }
+
+                in.close();
+            }
+            catch (MalformedURLException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            catch (IOException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+            Customer customer = new Customer();
+            Gson gson = new Gson();
+            Customer top = gson.fromJson(json, Customer.class);
+            Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
             return true;
         }
     }

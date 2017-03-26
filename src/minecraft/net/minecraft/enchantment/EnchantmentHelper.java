@@ -304,7 +304,7 @@ public class EnchantmentHelper
     /**
      * Checks if the player has any armor enchanted with the frost walker enchantment.
      *  @return If player has equipment with frost walker
-     *  
+     *
      * @param player The player to check enchantment for
      */
     public static boolean hasFrostWalkerEnchantment(EntityLivingBase player)

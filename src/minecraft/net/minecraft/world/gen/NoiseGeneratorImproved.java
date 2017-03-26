@@ -7,7 +7,7 @@ public class NoiseGeneratorImproved extends NoiseGenerator
     /**
      * An int[512], where the first 256 elements are the numbers 0..255, in random shuffled order,
      * and the second half of the array is identical to the first half, apparently for convenience in wrapping lookups.
-     *  
+     *
      * Effectively a shuffled 0..255 that wraps once.
      */
     private final int[] permutations;

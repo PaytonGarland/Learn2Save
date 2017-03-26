@@ -206,7 +206,7 @@ public abstract class GuiContainer extends GuiScreen
 
     /**
      * Draws an ItemStack.
-     *  
+     *
      * The z index is increased by 32 (and not decreased afterwards), and the item is then rendered at z=200.
      */
     private void drawItemStack(ItemStack stack, int x, int y, String altText)

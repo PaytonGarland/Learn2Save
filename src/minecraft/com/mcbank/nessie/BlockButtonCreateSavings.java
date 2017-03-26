@@ -11,7 +11,6 @@ import javax.annotation.Nullable;
 import com.google.gson.Gson;
 import com.mcbank.nessie.Customer;
 
-import net.minecraft.block.BlockButton;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
@@ -38,34 +37,44 @@ public class BlockButtonCreateSavings extends BlockButton
     {
         worldIn.playSound((EntityPlayer)null, pos, SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF, SoundCategory.BLOCKS, 0.3F, 0.5F);
     }
-    
+
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing heldItem, float side, float hitX, float hitY)
     {
         if (((Boolean)state.getValue(POWERED)).booleanValue())
         {
-        	String json = "";
-    		URL customerInfo;
-    		try {
-    			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
-    	        BufferedReader in = new BufferedReader(
-    	        new InputStreamReader(customerInfo.openStream()));
-    	
-    	        String inputLine;
-    	        while ((inputLine = in.readLine()) != null)
-    	            json = json + inputLine;
-    	        in.close();
-    		} catch (MalformedURLException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-    		Customer customer = new Customer();
-    		Gson gson = new Gson();
-    		Customer top = gson.fromJson(json, Customer.class);
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
+            String json = "";
+            URL customerInfo;
+
+            try
+            {
+                customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
+                BufferedReader in = new BufferedReader(
+                    new InputStreamReader(customerInfo.openStream()));
+                String inputLine;
+
+                while ((inputLine = in.readLine()) != null)
+                {
+                    json = json + inputLine;
+                }
+
+                in.close();
+            }
+            catch (MalformedURLException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            catch (IOException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+            Customer customer = new Customer();
+            Gson gson = new Gson();
+            Customer top = gson.fromJson(json, Customer.class);
+            Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
             return true;
         }
         else
@@ -76,27 +85,37 @@ public class BlockButtonCreateSavings extends BlockButton
             this.notifyNeighbors(worldIn, pos, (EnumFacing)state.getValue(FACING));
             worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
             String json = "";
-    		URL customerInfo;
-    		try {
-    			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
-    	        BufferedReader in = new BufferedReader(
-    	        new InputStreamReader(customerInfo.openStream()));
-    	
-    	        String inputLine;
-    	        while ((inputLine = in.readLine()) != null)
-    	            json = json + inputLine;
-    	        in.close();
-    		} catch (MalformedURLException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-    		Customer customer = new Customer();
-    		Gson gson = new Gson();
-    		Customer top = gson.fromJson(json, Customer.class);
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
+            URL customerInfo;
+
+            try
+            {
+                customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
+                BufferedReader in = new BufferedReader(
+                    new InputStreamReader(customerInfo.openStream()));
+                String inputLine;
+
+                while ((inputLine = in.readLine()) != null)
+                {
+                    json = json + inputLine;
+                }
+
+                in.close();
+            }
+            catch (MalformedURLException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            catch (IOException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+            Customer customer = new Customer();
+            Gson gson = new Gson();
+            Customer top = gson.fromJson(json, Customer.class);
+            Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
             return true;
         }
     }

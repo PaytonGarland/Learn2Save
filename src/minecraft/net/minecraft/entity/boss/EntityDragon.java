@@ -849,7 +849,7 @@ public class EntityDragon extends EntityLiving implements IEntityMultiPart, IMob
     /**
      * Find and return a path among the circles described by pathPoints, or null if the shortest path would just be
      * directly between the start and finish with no intermediate points.
-     *  
+     *
      * Starting with pathPoint[startIdx], it searches the neighboring points (and their neighboring points, and so on)
      * until it reaches pathPoint[finishIdx], at which point it calls makePath to seal the deal.
      */

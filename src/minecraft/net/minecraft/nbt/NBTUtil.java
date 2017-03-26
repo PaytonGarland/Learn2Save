@@ -248,7 +248,7 @@ public final class NBTUtil
 
     /**
      * Reads a blockstate from the given tag.
-     *  
+     *
      * @param tag The tag the blockstate is to be read from
      */
     public static IBlockState readBlockState(NBTTagCompound tag)
@@ -289,7 +289,7 @@ public final class NBTUtil
 
     /**
      * Writes the given blockstate to the given tag.
-     *  
+     *
      * @param tag The tag to write to
      * @param state The blockstate to be written
      */

@@ -1,5 +1,12 @@
 package net.minecraft.block;
 
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+
 import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -7,6 +14,7 @@ import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -32,12 +40,14 @@ public class BlockLever extends Block
     protected static final AxisAlignedBB LEVER_EAST_AABB = new AxisAlignedBB(0.0D, 0.20000000298023224D, 0.3125D, 0.375D, 0.800000011920929D, 0.6875D);
     protected static final AxisAlignedBB LEVER_UP_AABB = new AxisAlignedBB(0.25D, 0.0D, 0.25D, 0.75D, 0.6000000238418579D, 0.75D);
     protected static final AxisAlignedBB LEVER_DOWN_AABB = new AxisAlignedBB(0.25D, 0.4000000059604645D, 0.25D, 0.75D, 1.0D, 0.75D);
+    private int coins;
 
     protected BlockLever()
     {
         super(Material.CIRCUITS);
         this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, BlockLever.EnumOrientation.NORTH).withProperty(POWERED, Boolean.valueOf(false)));
         this.setCreativeTab(CreativeTabs.REDSTONE);
+        coins = 0;
     }
 
     @Nullable
@@ -188,6 +198,39 @@ public class BlockLever extends Block
             worldIn.notifyNeighborsOfStateChange(pos, this, false);
             EnumFacing enumfacing = ((BlockLever.EnumOrientation)state.getValue(FACING)).getFacing();
             worldIn.notifyNeighborsOfStateChange(pos.offset(enumfacing.getOpposite()), this, false);
+
+            try
+            {
+            	coins++;
+                String urlParameters  = "{\"medium\": \"balance\",\"transaction_date\": \"2017-03-25\",\"amount\": " + coins + ",\"description\": Coin deposit}";
+                System.out.println(urlParameters);
+                byte[] postData = urlParameters.getBytes(StandardCharsets.UTF_8);
+                int postDataLength = postData.length;
+                String request = "http://api.reimaginebanking.com/accounts/58d70e251756fc834d906b36/deposits?key=37eda199c5d3895687d139770b1d9c9a";
+                URL url = new URL(request);
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setDoOutput(true);
+                conn.setInstanceFollowRedirects(false);
+                conn.setRequestMethod("POST");
+                conn.setRequestProperty("Content-Type", "application/json");
+                conn.setRequestProperty("Accept", "application/json");
+                conn.setUseCaches(false);
+                DataOutputStream wr = new DataOutputStream(conn.getOutputStream());
+                wr.write(postData);
+
+
+                BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        		
+        		String json = "";
+        		while ((json = rd.readLine()) != null)
+                    System.out.println(json);
+                rd.close();
+            }
+            catch (Exception e)
+            {
+            }
+
+            Minecraft.getMinecraft().player.sendChatMessage("1 coin has been deposited.");
             return true;
         }
     }

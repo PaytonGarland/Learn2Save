@@ -24,7 +24,7 @@ import net.minecraft.world.World;
 
 public class BlockButtonWood extends BlockButton
 {
-	private int count;
+    private int count;
     protected BlockButtonWood()
     {
         super(2);
@@ -40,7 +40,7 @@ public class BlockButtonWood extends BlockButton
     {
         worldIn.playSound((EntityPlayer)null, pos, SoundEvents.BLOCK_WOOD_BUTTON_CLICK_OFF, SoundCategory.BLOCKS, 0.3F, 0.5F);
     }
-    
+
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing heldItem, float side, float hitX, float hitY)
     {
@@ -50,35 +50,48 @@ public class BlockButtonWood extends BlockButton
         }
         else
         {
-        	count++;
+            count++;
             worldIn.setBlockState(pos, state.withProperty(POWERED, Boolean.valueOf(true)), 3);
             worldIn.markBlockRangeForRenderUpdate(pos, pos);
             this.playClickSound(playerIn, worldIn, pos);
             this.notifyNeighbors(worldIn, pos, (EnumFacing)state.getValue(FACING));
             worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
             String json = "";
-    		URL customerInfo;
-    		try {
-    			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
-    	        BufferedReader in = new BufferedReader(
-    	        new InputStreamReader(customerInfo.openStream()));
-    	
-    	        String inputLine;
-    	        while ((inputLine = in.readLine()) != null)
-    	            json = json + inputLine;
-    	        in.close();
-    		} catch (MalformedURLException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		} catch (IOException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		}
-    		Customer customer = new Customer();
-    		Gson gson = new Gson();
-    		SavingsBalance current = gson.fromJson(json, SavingsBalance.class);
-    		if (count % 2 == 0)
-    			Minecraft.getMinecraft().player.sendChatMessage("Your current balance is: " + current.getBalance() + " coins.");
+            URL customerInfo;
+
+            try
+            {
+                customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
+                BufferedReader in = new BufferedReader(
+                    new InputStreamReader(customerInfo.openStream()));
+                String inputLine;
+
+                while ((inputLine = in.readLine()) != null)
+                {
+                    json = json + inputLine;
+                }
+
+                in.close();
+            }
+            catch (MalformedURLException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            catch (IOException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+            Customer customer = new Customer();
+            Gson gson = new Gson();
+            SavingsBalance current = gson.fromJson(json, SavingsBalance.class);
+
+
+            Minecraft.getMinecraft().player.sendChatMessage("Your current balance is: " + current.getBalance() + " coins.");
+            
+
             return true;
         }
     }

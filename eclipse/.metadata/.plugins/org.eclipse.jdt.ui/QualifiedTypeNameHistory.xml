@@ -8,6 +8,15 @@
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="net.minecraft.util.text.ITextComponent.Serializer"/>
-<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
 <fullyQualifiedTypeName name="com.mcbank.nessie.Customer"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockDirectional"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockButton"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="javax.net.ssl.HttpsURLConnection"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="com.ibm.icu.impl.duration.TimeUnit"/>
+<fullyQualifiedTypeName name="com.mcbank.nessie.SavingsBalance"/>
+<fullyQualifiedTypeName name="com.mcbank.nessie.Weather"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.NameValuePair"/>
+<fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
 </qualifiedTypeNameHistroy>

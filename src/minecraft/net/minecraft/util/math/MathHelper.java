@@ -364,7 +364,7 @@ public class MathHelper
 
     /**
      * Rounds the first parameter up to the next interval of the second parameter.
-     *  
+     *
      * For instance, {@code roundUp(1, 4)} returns 4; {@code roundUp(0, 4)} returns 0; and {@code roundUp(4, 4)} returns
      * 4.
      */

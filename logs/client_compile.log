@@ -22,22 +22,22 @@ src\minecraft\net\minecraft\block\BlockButton.java:132: warning: [deprecation] n
 src\minecraft\net\minecraft\block\BlockButton.java:155: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
     public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
                          ^
-src\minecraft\net\minecraft\block\BlockButton.java:261: warning: [deprecation] getWeakPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+src\minecraft\net\minecraft\block\BlockButton.java:281: warning: [deprecation] getWeakPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
     public int getWeakPower(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
                ^
-src\minecraft\net\minecraft\block\BlockButton.java:266: warning: [deprecation] getStrongPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+src\minecraft\net\minecraft\block\BlockButton.java:286: warning: [deprecation] getStrongPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
     public int getStrongPower(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
                ^
-src\minecraft\net\minecraft\block\BlockButton.java:274: warning: [deprecation] canProvidePower(IBlockState) in Block has been deprecated
+src\minecraft\net\minecraft\block\BlockButton.java:294: warning: [deprecation] canProvidePower(IBlockState) in Block has been deprecated
     public boolean canProvidePower(IBlockState state)
                    ^
-src\minecraft\net\minecraft\block\BlockButton.java:347: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+src\minecraft\net\minecraft\block\BlockButton.java:367: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
     public IBlockState getStateFromMeta(int meta)
                        ^
-src\minecraft\net\minecraft\block\BlockButton.java:427: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+src\minecraft\net\minecraft\block\BlockButton.java:447: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
     public IBlockState withRotation(IBlockState state, Rotation rot)
                        ^
-src\minecraft\net\minecraft\block\BlockButton.java:436: warning: [deprecation] withMirror(IBlockState,Mirror) in Block has been deprecated
+src\minecraft\net\minecraft\block\BlockButton.java:456: warning: [deprecation] withMirror(IBlockState,Mirror) in Block has been deprecated
     public IBlockState withMirror(IBlockState state, Mirror mirrorIn)
                        ^
 src\minecraft\net\minecraft\entity\Entity.java:2773: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated

@@ -28,6 +28,7 @@ public abstract class MapGenStructure extends MapGenBase
     /**
      * Recursively called by generate()
      */
+
     protected final synchronized void recursiveGenerate(World worldIn, final int chunkX, final int chunkZ, int p_180701_4_, int p_180701_5_, ChunkPrimer chunkPrimerIn)
     {
         this.initializeStructureData(worldIn);

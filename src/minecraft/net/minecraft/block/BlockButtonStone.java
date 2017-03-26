@@ -1,10 +1,14 @@
 package net.minecraft.block;
 
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.ProtocolException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 
 import javax.annotation.Nullable;
 
@@ -23,7 +27,7 @@ import net.minecraft.world.World;
 
 public class BlockButtonStone extends BlockButton
 {
-	private int count;
+    private int count;
     protected BlockButtonStone()
     {
         super(1);
@@ -39,7 +43,7 @@ public class BlockButtonStone extends BlockButton
     {
         worldIn.playSound((EntityPlayer)null, pos, SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF, SoundCategory.BLOCKS, 0.3F, 0.5F);
     }
-    
+
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing heldItem, float side, float hitX, float hitY)
     {
@@ -49,35 +53,40 @@ public class BlockButtonStone extends BlockButton
         }
         else
         {
-        	count++;
+            count++;
             worldIn.setBlockState(pos, state.withProperty(POWERED, Boolean.valueOf(true)), 3);
             worldIn.markBlockRangeForRenderUpdate(pos, pos);
             this.playClickSound(playerIn, worldIn, pos);
             this.notifyNeighbors(worldIn, pos, (EnumFacing)state.getValue(FACING));
             worldIn.scheduleUpdate(pos, this, this.tickRate(worldIn));
-            String json = "";
-    		URL customerInfo;
-    		try {
-    			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
-    	        BufferedReader in = new BufferedReader(
-    	        new InputStreamReader(customerInfo.openStream()));
-    	
-    	        String inputLine;
-    	        while ((inputLine = in.readLine()) != null)
-    	            json = json + inputLine;
-    	        in.close();
-    		} catch (MalformedURLException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-    		Customer customer = new Customer();
-    		Gson gson = new Gson();
-    		Customer top = gson.fromJson(json, Customer.class);
-    		if (count % 2 == 0)
-    			Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName());
+
+            if (count % 2 == 0)
+            {
+                try
+                {
+                    String urlParameters  = "{\"type\": \"Checking\",\"nickname\": \"Bob\",\"rewards\": 0,\"balance\": 0}";
+                    System.out.println(urlParameters);
+                    byte[] postData       = urlParameters.getBytes(StandardCharsets.UTF_8);
+                    int    postDataLength = postData.length;
+                    String request        = "http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca/accounts?key=37eda199c5d3895687d139770b1d9c9a";
+                    URL    url            = new URL(request);
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                    conn.setDoOutput(true);
+                    conn.setInstanceFollowRedirects(false);
+                    conn.setRequestMethod("POST");
+                    conn.setRequestProperty("Content-Type", "application/json");
+                    conn.setRequestProperty("Accept", "application/json");
+                    conn.setUseCaches(false);
+                    DataOutputStream wr = new DataOutputStream(conn.getOutputStream());
+                    wr.write(postData);
+                }
+                catch (Exception e)
+                {
+                }
+
+                Minecraft.getMinecraft().player.sendChatMessage("New account has been created.");
+            }
+
             return true;
         }
     }

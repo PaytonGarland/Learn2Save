@@ -130,7 +130,7 @@ public class BlockPressurePlate extends BlockBasePressurePlate
         EVERYTHING,
         MOBS;
     }
-    
+
     /**
      * Updates the pressure plate when stepped on
      */
@@ -157,32 +157,42 @@ public class BlockPressurePlate extends BlockBasePressurePlate
         {
             this.playClickOnSound(worldIn, pos);
             String json = "";
-    		URL customerInfo;
-    		try {
-    			customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
-    	        BufferedReader in = new BufferedReader(
-    	        new InputStreamReader(customerInfo.openStream()));
-    	
-    	        String inputLine;
-    	        while ((inputLine = in.readLine()) != null)
-    	            json = json + inputLine;
-    	        in.close();
-    		} catch (MalformedURLException e) {
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
-    		} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-    		Customer customer = new Customer();
-    		Gson gson = new Gson();
-    		Customer top = gson.fromJson(json, Customer.class);
-    		Minecraft.getMinecraft().player.sendChatMessage("WELCOME to the VILLAGE BANK");
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName() + " - " + top.getId());
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getAddress().getStreetNumber() + " " 
-    		+ top.getAddress().getStreetName());
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getAddress().getCity() + ", " + top.getAddress().getState());
-    		Minecraft.getMinecraft().player.sendChatMessage(top.getAddress().getZip());
+            URL customerInfo;
+
+            try
+            {
+                customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
+                BufferedReader in = new BufferedReader(
+                    new InputStreamReader(customerInfo.openStream()));
+                String inputLine;
+
+                while ((inputLine = in.readLine()) != null)
+                {
+                    json = json + inputLine;
+                }
+
+                in.close();
+            }
+            catch (MalformedURLException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            catch (IOException e)
+            {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+            Customer customer = new Customer();
+            Gson gson = new Gson();
+            Customer top = gson.fromJson(json, Customer.class);
+            Minecraft.getMinecraft().player.sendChatMessage("WELCOME to the VILLAGE BANK");
+            Minecraft.getMinecraft().player.sendChatMessage(top.getFirstName() + " " + top.getLastName() + " - " + top.getId());
+            Minecraft.getMinecraft().player.sendChatMessage(top.getAddress().getStreetNumber() + " "
+                    + top.getAddress().getStreetName());
+            Minecraft.getMinecraft().player.sendChatMessage(top.getAddress().getCity() + ", " + top.getAddress().getState());
+            Minecraft.getMinecraft().player.sendChatMessage(top.getAddress().getZip());
         }
 
         if (flag1)

@@ -97,7 +97,7 @@ public class SimpleReloadableResourceManager implements IReloadableResourceManag
                 return p_apply_1_ == null ? "<NULL>" : p_apply_1_.getPackName();
             }
         }))
-                                                                          });
+                                                                  });
 
         for (IResourcePack iresourcepack : resourcesPacksList)
         {

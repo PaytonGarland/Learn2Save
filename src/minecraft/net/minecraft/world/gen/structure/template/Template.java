@@ -211,7 +211,7 @@ public class Template
 
     /**
      * This takes the data stored in this instance and puts them into the world.
-     *  
+     *
      * @param flags The flags to use when placing blocks.
      */
     public void addBlocksToWorld(World worldIn, BlockPos pos, PlacementSettings placementIn, int flags)
