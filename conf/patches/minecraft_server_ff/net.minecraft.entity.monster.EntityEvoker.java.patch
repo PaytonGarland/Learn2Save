@@ -1,0 +1,27 @@
+diff -r -U 3 minecraft_server\net\minecraft\entity\monster\EntityEvoker.java minecraft_server_patched\net\minecraft\entity\monster\EntityEvoker.java
+--- minecraft_server\net\minecraft\entity\monster\EntityEvoker.java
++++ minecraft_server_patched\net\minecraft\entity\monster\EntityEvoker.java
+@@ -176,7 +176,6 @@
+ 
+    class AIAttackSpell extends EntityEvoker.AIUseSpell {
+       private AIAttackSpell() {
+-         super(null);
+       }
+ 
+       protected int func_190869_f() {
+@@ -285,7 +284,6 @@
+ 
+    class AISummonSpell extends EntityEvoker.AIUseSpell {
+       private AISummonSpell() {
+-         super(null);
+       }
+ 
+       public boolean func_75250_a() {
+@@ -383,7 +381,6 @@
+       };
+ 
+       public AIWololoSpell() {
+-         super(null);
+       }
+ 
+       public boolean func_75250_a() {

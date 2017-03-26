@@ -1,0 +1,5 @@
+package com.mcbank.nessie;
+
+public abstract class BlockButtonAccountCreator {
+
+}

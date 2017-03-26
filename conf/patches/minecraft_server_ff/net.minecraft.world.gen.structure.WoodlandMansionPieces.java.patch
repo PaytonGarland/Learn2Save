@@ -1,0 +1,27 @@
+diff -r -U 3 minecraft_server\net\minecraft\world\gen\structure\WoodlandMansionPieces.java minecraft_server_patched\net\minecraft\world\gen\structure\WoodlandMansionPieces.java
+--- minecraft_server\net\minecraft\world\gen\structure\WoodlandMansionPieces.java
++++ minecraft_server_patched\net\minecraft\world\gen\structure\WoodlandMansionPieces.java
+@@ -41,7 +41,6 @@
+ 
+    static class FirstFloor extends WoodlandMansionPieces.RoomCollection {
+       private FirstFloor() {
+-         super(null);
+       }
+ 
+       public String func_191104_a(Random p_191104_1_) {
+@@ -943,7 +942,6 @@
+ 
+    static class SecondFloor extends WoodlandMansionPieces.RoomCollection {
+       private SecondFloor() {
+-         super(null);
+       }
+ 
+       public String func_191104_a(Random p_191104_1_) {
+@@ -1022,7 +1020,6 @@
+ 
+    static class ThirdFloor extends WoodlandMansionPieces.SecondFloor {
+       private ThirdFloor() {
+-         super(null);
+       }
+    }
+ }

@@ -1,0 +1,31 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		URL customers = null;
+		BufferedReader api = null;
+		try {
+			customers = new URL("http://api.reimaginebanking.com/customers?key=37eda199c5d3895687d139770b1d9c9a");
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		try {
+			api = new BufferedReader(new InputStreamReader(customers.openStream()));
+			System.out.println(api.readLine());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+
+}

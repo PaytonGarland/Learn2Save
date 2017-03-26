@@ -1,0 +1,304 @@
+src\minecraft_server\net\minecraft\block\Block.java:839: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        return I18n.translateToLocal(this.getUnlocalizedName() + ".name");
+               ^
+src\minecraft_server\net\minecraft\block\Block.java:839: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+        return I18n.translateToLocal(this.getUnlocalizedName() + ".name");
+                   ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:275: warning: [deprecation] getMaterial(IBlockState) in Block has been deprecated
+            return this.block.getMaterial(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:280: warning: [deprecation] isFullBlock(IBlockState) in Block has been deprecated
+            return this.block.isFullBlock(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:285: warning: [deprecation] canEntitySpawn(IBlockState,Entity) in Block has been deprecated
+            return this.block.canEntitySpawn(this, entityIn);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:290: warning: [deprecation] getLightOpacity(IBlockState) in Block has been deprecated
+            return this.block.getLightOpacity(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:295: warning: [deprecation] getLightValue(IBlockState) in Block has been deprecated
+            return this.block.getLightValue(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:300: warning: [deprecation] getUseNeighborBrightness(IBlockState) in Block has been deprecated
+            return this.block.getUseNeighborBrightness(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:305: warning: [deprecation] getMapColor(IBlockState) in Block has been deprecated
+            return this.block.getMapColor(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:310: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+            return this.block.withRotation(this, rot);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:315: warning: [deprecation] withMirror(IBlockState,Mirror) in Block has been deprecated
+            return this.block.withMirror(this, mirrorIn);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:320: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+            return this.block.isFullCube(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:325: warning: [deprecation] getRenderType(IBlockState) in Block has been deprecated
+            return this.block.getRenderType(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:330: warning: [deprecation] isBlockNormalCube(IBlockState) in Block has been deprecated
+            return this.block.isBlockNormalCube(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:335: warning: [deprecation] isNormalCube(IBlockState) in Block has been deprecated
+            return this.block.isNormalCube(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:340: warning: [deprecation] canProvidePower(IBlockState) in Block has been deprecated
+            return this.block.canProvidePower(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:345: warning: [deprecation] getWeakPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+            return this.block.getWeakPower(this, blockAccess, pos, side);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:350: warning: [deprecation] hasComparatorInputOverride(IBlockState) in Block has been deprecated
+            return this.block.hasComparatorInputOverride(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:355: warning: [deprecation] getComparatorInputOverride(IBlockState,World,BlockPos) in Block has been deprecated
+            return this.block.getComparatorInputOverride(this, worldIn, pos);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:360: warning: [deprecation] getBlockHardness(IBlockState,World,BlockPos) in Block has been deprecated
+            return this.block.getBlockHardness(this, worldIn, pos);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:365: warning: [deprecation] getPlayerRelativeBlockHardness(IBlockState,EntityPlayer,World,BlockPos) in Block has been deprecated
+            return this.block.getPlayerRelativeBlockHardness(this, player, worldIn, pos);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:370: warning: [deprecation] getStrongPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+            return this.block.getStrongPower(this, blockAccess, pos, side);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:375: warning: [deprecation] getMobilityFlag(IBlockState) in Block has been deprecated
+            return this.block.getMobilityFlag(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:380: warning: [deprecation] getActualState(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+            return this.block.getActualState(this, blockAccess, pos);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:385: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+            return this.block.isOpaqueCube(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:391: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+            return this.block.getCollisionBoundingBox(this, worldIn, pos);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:396: warning: [deprecation] addCollisionBoxToList(IBlockState,World,BlockPos,AxisAlignedBB,List<AxisAlignedBB>,Entity,boolean) in Block has been deprecated
+            this.block.addCollisionBoxToList(this, worldIn, pos, p_185908_3_, p_185908_4_, p_185908_5_, p_185908_6_);
+                      ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:401: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+            return this.block.getBoundingBox(this, blockAccess, pos);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:406: warning: [deprecation] collisionRayTrace(IBlockState,World,BlockPos,Vec3d,Vec3d) in Block has been deprecated
+            return this.block.collisionRayTrace(this, worldIn, pos, start, end);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:411: warning: [deprecation] isFullyOpaque(IBlockState) in Block has been deprecated
+            return this.block.isFullyOpaque(this);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:416: warning: [deprecation] func_190949_e(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+            return this.block.func_190949_e(this, p_191059_1_, p_191059_2_);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:421: warning: [deprecation] eventReceived(IBlockState,World,BlockPos,int,int) in Block has been deprecated
+            return this.block.eventReceived(this, worldIn, pos, id, param);
+                             ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:426: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+            this.block.neighborChanged(this, worldIn, pos, blockIn, p_189546_4_);
+                      ^
+src\minecraft_server\net\minecraft\block\state\BlockStateContainer.java:431: warning: [deprecation] causesSuffocation(IBlockState) in Block has been deprecated
+            return this.block.causesSuffocation(this);
+                             ^
+src\minecraft_server\net\minecraft\item\Item.java:307: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        return I18n.translateToLocal(this.getUnlocalizedName(stack));
+               ^
+src\minecraft_server\net\minecraft\item\Item.java:307: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+        return I18n.translateToLocal(this.getUnlocalizedName(stack));
+                   ^
+src\minecraft_server\net\minecraft\item\Item.java:403: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        return I18n.translateToLocal(this.getUnlocalizedNameInefficiently(stack) + ".name").trim();
+               ^
+src\minecraft_server\net\minecraft\item\Item.java:403: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+        return I18n.translateToLocal(this.getUnlocalizedNameInefficiently(stack) + ".name").trim();
+                   ^
+src\minecraft_server\net\minecraft\entity\Entity.java:2603: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+            return I18n.translateToLocal("entity." + s + ".name");
+                   ^
+src\minecraft_server\net\minecraft\entity\Entity.java:2603: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+            return I18n.translateToLocal("entity." + s + ".name");
+                       ^
+src\minecraft_server\net\minecraft\item\ItemStack.java:581: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+                return I18n.translateToLocal(nbttagcompound.getString("LocName"));
+                       ^
+src\minecraft_server\net\minecraft\item\ItemStack.java:581: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+                return I18n.translateToLocal(nbttagcompound.getString("LocName"));
+                           ^
+src\minecraft_server\net\minecraft\util\DamageSource.java:238: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        return entitylivingbase != null && I18n.canTranslate(s1) ? new TextComponentTranslation(s1, new Object[] {entityLivingBaseIn.getDisplayName(), entitylivingbase.getDisplayName()}): new TextComponentTranslation(s, new Object[] {entityLivingBaseIn.getDisplayName()});
+                                           ^
+src\minecraft_server\net\minecraft\util\DamageSource.java:238: warning: [deprecation] canTranslate(String) in I18n has been deprecated
+        return entitylivingbase != null && I18n.canTranslate(s1) ? new TextComponentTranslation(s1, new Object[] {entityLivingBaseIn.getDisplayName(), entitylivingbase.getDisplayName()}): new TextComponentTranslation(s, new Object[] {entityLivingBaseIn.getDisplayName()});
+                                               ^
+src\minecraft_server\net\minecraft\entity\item\EntityItem.java:470: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        return this.hasCustomName() ? this.getCustomNameTag() : I18n.translateToLocal("item." + this.getEntityItem().getUnlocalizedName());
+                                                                ^
+src\minecraft_server\net\minecraft\entity\item\EntityItem.java:470: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+        return this.hasCustomName() ? this.getCustomNameTag() : I18n.translateToLocal("item." + this.getEntityItem().getUnlocalizedName());
+                                                                    ^
+src\minecraft_server\net\minecraft\world\chunk\Chunk.java:316: warning: [deprecation] getChunksLowestHorizon(int,int) in World has been deprecated
+                            j1 = Math.min(j1, this.worldObj.getChunksLowestHorizon(l + enumfacing.getFrontOffsetX(), i1 + enumfacing.getFrontOffsetZ()));
+                                                           ^
+src\minecraft_server\net\minecraft\enchantment\Enchantment.java:176: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        String s = I18n.translateToLocal(this.getName());
+                   ^
+src\minecraft_server\net\minecraft\enchantment\Enchantment.java:176: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+        String s = I18n.translateToLocal(this.getName());
+                       ^
+src\minecraft_server\net\minecraft\enchantment\Enchantment.java:183: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        return level == 1 && this.getMaxLevel() == 1 ? s : s + " " + I18n.translateToLocal("enchantment.level." + level);
+                                                                     ^
+src\minecraft_server\net\minecraft\enchantment\Enchantment.java:183: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+        return level == 1 && this.getMaxLevel() == 1 ? s : s + " " + I18n.translateToLocal("enchantment.level." + level);
+                                                                         ^
+src\minecraft_server\net\minecraft\block\BlockBush.java:54: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+    public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos p_189540_5_)
+                ^
+src\minecraft_server\net\minecraft\block\BlockBush.java:56: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+        super.neighborChanged(state, worldIn, pos, blockIn, p_189540_5_);
+             ^
+src\minecraft_server\net\minecraft\block\BlockBush.java:79: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+                         ^
+src\minecraft_server\net\minecraft\block\BlockBush.java:85: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos)
+                         ^
+src\minecraft_server\net\minecraft\block\BlockBush.java:93: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+    public boolean isOpaqueCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockBush.java:98: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+    public boolean isFullCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockFlower.java:44: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+    public IBlockState getStateFromMeta(int meta)
+                       ^
+src\minecraft_server\net\minecraft\block\BlockDoublePlant.java:255: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+    public IBlockState getStateFromMeta(int meta)
+                       ^
+src\minecraft_server\net\minecraft\block\BlockDoublePlant.java:264: warning: [deprecation] getActualState(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public IBlockState getActualState(IBlockState state, IBlockAccess worldIn, BlockPos pos)
+                       ^
+src\minecraft_server\net\minecraft\block\BlockRotatedPillar.java:35: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+    public IBlockState withRotation(IBlockState state, Rotation rot)
+                       ^
+src\minecraft_server\net\minecraft\block\BlockRotatedPillar.java:61: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+    public IBlockState getStateFromMeta(int meta)
+                       ^
+src\minecraft_server\net\minecraft\block\BlockAir.java:23: warning: [deprecation] getRenderType(IBlockState) in Block has been deprecated
+    public EnumBlockRenderType getRenderType(IBlockState state)
+                               ^
+src\minecraft_server\net\minecraft\block\BlockAir.java:29: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos)
+                         ^
+src\minecraft_server\net\minecraft\block\BlockAir.java:37: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+    public boolean isOpaqueCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockAir.java:62: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+    public boolean isFullCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockFalling.java:40: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+    public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos p_189540_5_)
+                ^
+src\minecraft_server\net\minecraft\block\BlockAnvil.java:46: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+    public boolean isFullCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockAnvil.java:54: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+    public boolean isOpaqueCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockAnvil.java:106: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+                         ^
+src\minecraft_server\net\minecraft\block\BlockAnvil.java:130: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+    public IBlockState getStateFromMeta(int meta)
+                       ^
+src\minecraft_server\net\minecraft\block\BlockAnvil.java:150: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+    public IBlockState withRotation(IBlockState state, Rotation rot)
+                       ^
+src\minecraft_server\net\minecraft\entity\item\EntityFallingBlock.java:282: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+            this.fallTile = Block.getBlockFromName(compound.getString("Block")).getStateFromMeta(i);
+                                                                               ^
+src\minecraft_server\net\minecraft\entity\item\EntityFallingBlock.java:286: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+            this.fallTile = Block.getBlockById(compound.getInteger("TileID")).getStateFromMeta(i);
+                                                                             ^
+src\minecraft_server\net\minecraft\entity\item\EntityFallingBlock.java:290: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+            this.fallTile = Block.getBlockById(compound.getByte("Tile") & 255).getStateFromMeta(i);
+                                                                              ^
+src\minecraft_server\net\minecraft\block\BlockContainer.java:48: warning: [deprecation] getRenderType(IBlockState) in Block has been deprecated
+    public EnumBlockRenderType getRenderType(IBlockState state)
+                               ^
+src\minecraft_server\net\minecraft\block\BlockContainer.java:98: warning: [deprecation] eventReceived(IBlockState,World,BlockPos,int,int) in Block has been deprecated
+    public boolean eventReceived(IBlockState state, World worldIn, BlockPos pos, int id, int param)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockContainer.java:100: warning: [deprecation] eventReceived(IBlockState,World,BlockPos,int,int) in Block has been deprecated
+        super.eventReceived(state, worldIn, pos, id, param);
+             ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:42: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+        return I18n.translateToLocal("item.banner.white.name");
+               ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:42: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+        return I18n.translateToLocal("item.banner.white.name");
+                   ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:46: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos)
+                         ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:51: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+    public boolean isFullCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:64: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+    public boolean isOpaqueCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:153: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+        public IBlockState withRotation(IBlockState state, Rotation rot)
+                           ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:158: warning: [deprecation] withMirror(IBlockState,Mirror) in Block has been deprecated
+        public IBlockState withMirror(IBlockState state, Mirror mirrorIn)
+                           ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:163: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+        public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+                             ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:182: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+        public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos p_189540_5_)
+                    ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:192: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+            super.neighborChanged(state, worldIn, pos, blockIn, p_189540_5_);
+                 ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:195: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+        public IBlockState getStateFromMeta(int meta)
+                           ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:225: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+        public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+                             ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:230: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+        public IBlockState withRotation(IBlockState state, Rotation rot)
+                           ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:235: warning: [deprecation] withMirror(IBlockState,Mirror) in Block has been deprecated
+        public IBlockState withMirror(IBlockState state, Mirror mirrorIn)
+                           ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:240: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+        public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos p_189540_5_)
+                    ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:248: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+            super.neighborChanged(state, worldIn, pos, blockIn, p_189540_5_);
+                 ^
+src\minecraft_server\net\minecraft\block\BlockBanner.java:251: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+        public IBlockState getStateFromMeta(int meta)
+                           ^
+src\minecraft_server\net\minecraft\block\BlockBarrier.java:24: warning: [deprecation] getRenderType(IBlockState) in Block has been deprecated
+    public EnumBlockRenderType getRenderType(IBlockState state)
+                               ^
+src\minecraft_server\net\minecraft\block\BlockBarrier.java:32: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+    public boolean isOpaqueCube(IBlockState state)
+                   ^
+src\minecraft_server\net\minecraft\block\BlockBasePressurePlate.java:40: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+                         ^
+src\minecraft_server\net\minecraft\block\BlockBasePressurePlate.java:55: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+    public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos)
+                         ^
+src\minecraft_server\net\minecraft\block\BlockBasePressurePlate.java:63: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+    public boolean isOpaqueCube(IBlockState state)
+                   ^
+Note: Some input files additionally use or override a deprecated API.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 warnings

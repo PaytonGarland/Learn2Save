@@ -1,0 +1,116 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 3/25/17 8:28 PM
+Description: Colliding entity with block
+
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 1 column 2
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at com.google.gson.Gson.fromJson(Gson.java:689)
+	at net.minecraft.block.BlockPressurePlateWeighted.updateState(BlockPressurePlateWeighted.java:155)
+	at net.minecraft.block.BlockBasePressurePlate.onEntityCollidedWithBlock(BlockBasePressurePlate.java:141)
+	at net.minecraft.entity.Entity.doBlockCollisions(Entity.java:1182)
+	at net.minecraft.entity.Entity.moveEntity(Entity.java:1100)
+	at net.minecraft.entity.EntityLivingBase.moveEntityWithHeading(EntityLivingBase.java:2084)
+	at net.minecraft.entity.player.EntityPlayer.moveEntityWithHeading(EntityPlayer.java:1880)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2524)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:581)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2316)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:277)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:387)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:181)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:305)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:194)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:813)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:703)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:176)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:566)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 1 column 2
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 23 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at com.google.gson.Gson.fromJson(Gson.java:689)
+	at net.minecraft.block.BlockPressurePlateWeighted.updateState(BlockPressurePlateWeighted.java:155)
+	at net.minecraft.block.BlockBasePressurePlate.onEntityCollidedWithBlock(BlockBasePressurePlate.java:141)
+
+-- Block being collided with --
+Details:
+	Block: minecraft:light_weighted_pressure_plate[power=0]
+	Block location: World: (12,64,-257), Chunk: (at 12,4,15 in 0,-17; contains blocks 0,0,-272 to 15,255,-257), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+Stacktrace:
+	at net.minecraft.entity.Entity.doBlockCollisions(Entity.java:1182)
+
+-- Entity being checked for collision --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 375
+	Entity Name: Player758
+	Entity's Exact location: 13.29, 64.00, -256.46
+	Entity's Block location: World: (13,64,-257), Chunk: (at 13,4,15 in 0,-17; contains blocks 0,0,-272 to 15,255,-257), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.Entity.moveEntity(Entity.java:1100)
+	at net.minecraft.entity.EntityLivingBase.moveEntityWithHeading(EntityLivingBase.java:2084)
+	at net.minecraft.entity.player.EntityPlayer.moveEntityWithHeading(EntityPlayer.java:1880)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2524)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:581)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2316)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:277)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 375
+	Entity Name: Player758
+	Entity's Exact location: 13.29, 64.00, -256.46
+	Entity's Block location: World: (13,64,-257), Chunk: (at 13,4,15 in 0,-17; contains blocks 0,0,-272 to 15,255,-257), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:387)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:181)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:305)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@10cdd19
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:194)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:813)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:703)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:176)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:566)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_121, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 780013320 bytes (743 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xms1024M -Xmx1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player758'/375, l='Bank', x=13.29, y=64.00, z=-256.46]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated

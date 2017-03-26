@@ -1,0 +1,12 @@
+diff -r -U 3 minecraft\net\minecraft\entity\monster\AbstractSkeleton.java minecraft_patched\net\minecraft\entity\monster\AbstractSkeleton.java
+--- minecraft\net\minecraft\entity\monster\AbstractSkeleton.java
++++ minecraft_patched\net\minecraft\entity\monster\AbstractSkeleton.java
+@@ -48,7 +48,7 @@
+ public abstract class AbstractSkeleton extends EntityMob implements IRangedAttackMob {
+    private static final DataParameter<Boolean> field_184728_b = EntityDataManager.<Boolean>func_187226_a(AbstractSkeleton.class, DataSerializers.field_187198_h);
+    private final EntityAIAttackRangedBow field_85037_d = new EntityAIAttackRangedBow(this, 1.0D, 20, 15.0F);
+-   private final EntityAIAttackMelee field_85038_e = new EntityAIAttackMelee(this, 1.2D, p_i47250_5_) {
++   private final EntityAIAttackMelee field_85038_e = new EntityAIAttackMelee(this, 1.2D, false) {
+       public void func_75251_c() {
+          super.func_75251_c();
+          AbstractSkeleton.this.func_184724_a(false);

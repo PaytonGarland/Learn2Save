@@ -1,0 +1,12 @@
+diff -r -U 3 minecraft\net\minecraft\entity\passive\EntityLlama.java minecraft_patched\net\minecraft\entity\passive\EntityLlama.java
+--- minecraft\net\minecraft\entity\passive\EntityLlama.java
++++ minecraft_patched\net\minecraft\entity\passive\EntityLlama.java
+@@ -423,7 +423,7 @@
+ 
+    static class AIDefendTarget extends EntityAINearestAttackableTarget<EntityWolf> {
+       public AIDefendTarget(EntityLlama p_i47285_1_) {
+-         super(p_i47285_1_, EntityWolf.class, 16, false, true, (Predicate<? super T>)null);
++         super(p_i47285_1_, EntityWolf.class, 16, false, true, null);
+       }
+ 
+       public boolean func_75250_a() {

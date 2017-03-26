@@ -1,0 +1,12 @@
+diff -r -U 3 minecraft_server\net\minecraft\world\storage\loot\functions\EnchantRandomly.java minecraft_server_patched\net\minecraft\world\storage\loot\functions\EnchantRandomly.java
+--- minecraft_server\net\minecraft\world\storage\loot\functions\EnchantRandomly.java
++++ minecraft_server_patched\net\minecraft\world\storage\loot\functions\EnchantRandomly.java
+@@ -31,7 +31,7 @@
+ 
+    public EnchantRandomly(LootCondition[] p_i46628_1_, @Nullable List<Enchantment> p_i46628_2_) {
+       super(p_i46628_1_);
+-      this.field_186558_b = p_i46628_2_ == null?Collections.emptyList():p_i46628_2_;
++      this.field_186558_b = p_i46628_2_ == null?Collections.<Enchantment>emptyList():p_i46628_2_;
+    }
+ 
+    public ItemStack func_186553_a(ItemStack p_186553_1_, Random p_186553_2_, LootContext p_186553_3_) {

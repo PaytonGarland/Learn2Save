@@ -1,0 +1,1779 @@
+12:33:39 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+12:58:49 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+13:00:25 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+13:02:53 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+13:04:21 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+13:59:53 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+14:01:42 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+14:13:02 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+14:14:25 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:02:35 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:03:54 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:05:41 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:20:45 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:22:04 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:23:34 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:24:58 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:30:21 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:30:42 - '"C:\Program Files\Java\jdk1.8.0_121\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "jars\versions\1.11.2\1.11.2.jar;lib;lib\*;jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -sourcepath src\minecraft -d bin\minecraft @temp\java_src_client.txt' failed : 1
+15:30:42 - 
+15:30:42 - == ERRORS FOUND in JAVA CODE ==
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\world\chunk\storage\AnvilSaveConverter.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 - import net.minecraft.util.text.translation.I18n;
+15:30:42 -                                           ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\Block.java:946: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return I18n.translateToLocal(this.getUnlocalizedName() + ".name");
+15:30:42 -                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\Block.java:946: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return I18n.translateToLocal(this.getUnlocalizedName() + ".name");
+15:30:42 -                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:275: warning: [deprecation] getMaterial(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getMaterial(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:280: warning: [deprecation] isFullBlock(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.isFullBlock(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:285: warning: [deprecation] canEntitySpawn(IBlockState,Entity) in Block has been deprecated
+15:30:42 -             return this.block.canEntitySpawn(this, entityIn);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:290: warning: [deprecation] getLightOpacity(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getLightOpacity(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:295: warning: [deprecation] getLightValue(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getLightValue(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:300: warning: [deprecation] isTranslucent(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.isTranslucent(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:305: warning: [deprecation] getUseNeighborBrightness(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getUseNeighborBrightness(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:310: warning: [deprecation] getMapColor(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getMapColor(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:315: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+15:30:42 -             return this.block.withRotation(this, rot);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:320: warning: [deprecation] withMirror(IBlockState,Mirror) in Block has been deprecated
+15:30:42 -             return this.block.withMirror(this, mirrorIn);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:325: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.isFullCube(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:330: warning: [deprecation] func_190946_v(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.func_190946_v(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:335: warning: [deprecation] getRenderType(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getRenderType(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:340: warning: [deprecation] getPackedLightmapCoords(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getPackedLightmapCoords(this, source, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:345: warning: [deprecation] getAmbientOcclusionLightValue(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getAmbientOcclusionLightValue(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:350: warning: [deprecation] isBlockNormalCube(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.isBlockNormalCube(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:355: warning: [deprecation] isNormalCube(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.isNormalCube(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:360: warning: [deprecation] canProvidePower(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.canProvidePower(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:365: warning: [deprecation] getWeakPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+15:30:42 -             return this.block.getWeakPower(this, blockAccess, pos, side);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:370: warning: [deprecation] hasComparatorInputOverride(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.hasComparatorInputOverride(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:375: warning: [deprecation] getComparatorInputOverride(IBlockState,World,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getComparatorInputOverride(this, worldIn, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:380: warning: [deprecation] getBlockHardness(IBlockState,World,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getBlockHardness(this, worldIn, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:385: warning: [deprecation] getPlayerRelativeBlockHardness(IBlockState,EntityPlayer,World,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getPlayerRelativeBlockHardness(this, player, worldIn, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:390: warning: [deprecation] getStrongPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+15:30:42 -             return this.block.getStrongPower(this, blockAccess, pos, side);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:395: warning: [deprecation] getMobilityFlag(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.getMobilityFlag(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:400: warning: [deprecation] getActualState(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getActualState(this, blockAccess, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:405: warning: [deprecation] getSelectedBoundingBox(IBlockState,World,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getSelectedBoundingBox(this, worldIn, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:410: warning: [deprecation] shouldSideBeRendered(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+15:30:42 -             return this.block.shouldSideBeRendered(this, blockAccess, pos, facing);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:415: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.isOpaqueCube(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:421: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getCollisionBoundingBox(this, worldIn, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:426: warning: [deprecation] addCollisionBoxToList(IBlockState,World,BlockPos,AxisAlignedBB,List<AxisAlignedBB>,Entity,boolean) in Block has been deprecated
+15:30:42 -             this.block.addCollisionBoxToList(this, worldIn, pos, p_185908_3_, p_185908_4_, p_185908_5_, p_185908_6_);
+15:30:42 -                       ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:431: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.getBoundingBox(this, blockAccess, pos);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:436: warning: [deprecation] collisionRayTrace(IBlockState,World,BlockPos,Vec3d,Vec3d) in Block has been deprecated
+15:30:42 -             return this.block.collisionRayTrace(this, worldIn, pos, start, end);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:441: warning: [deprecation] isFullyOpaque(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.isFullyOpaque(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:446: warning: [deprecation] func_190949_e(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:30:42 -             return this.block.func_190949_e(this, p_191059_1_, p_191059_2_);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:451: warning: [deprecation] eventReceived(IBlockState,World,BlockPos,int,int) in Block has been deprecated
+15:30:42 -             return this.block.eventReceived(this, worldIn, pos, id, param);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:456: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+15:30:42 -             this.block.neighborChanged(this, worldIn, pos, blockIn, p_189546_4_);
+15:30:42 -                       ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:461: warning: [deprecation] causesSuffocation(IBlockState) in Block has been deprecated
+15:30:42 -             return this.block.causesSuffocation(this);
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\Item.java:359: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return I18n.translateToLocal(this.getUnlocalizedName(stack));
+15:30:42 -                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\Item.java:359: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return I18n.translateToLocal(this.getUnlocalizedName(stack));
+15:30:42 -                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\Item.java:462: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return I18n.translateToLocal(this.getUnlocalizedNameInefficiently(stack) + ".name").trim();
+15:30:42 -                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\Item.java:462: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return I18n.translateToLocal(this.getUnlocalizedNameInefficiently(stack) + ".name").trim();
+15:30:42 -                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\entity\Entity.java:2773: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -             return I18n.translateToLocal("entity." + s + ".name");
+15:30:42 -                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\entity\Entity.java:2773: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -             return I18n.translateToLocal("entity." + s + ".name");
+15:30:42 -                        ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:587: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                 return I18n.translateToLocal(nbttagcompound.getString("LocName"));
+15:30:42 -                        ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:587: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                 return I18n.translateToLocal(nbttagcompound.getString("LocName"));
+15:30:42 -                            ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:718: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(I18n.translateToLocalFormatted("item.color", new Object[] {String.format("#%06X", new Object[]{Integer.valueOf(nbttagcompound.getInteger("color"))})}));
+15:30:42 -                                  ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:718: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:30:42 -                         list.add(I18n.translateToLocalFormatted("item.color", new Object[] {String.format("#%06X", new Object[]{Integer.valueOf(nbttagcompound.getInteger("color"))})}));
+15:30:42 -                                      ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:722: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(TextFormatting.ITALIC + I18n.translateToLocal("item.dyed"));
+15:30:42 -                                                          ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:722: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                         list.add(TextFormatting.ITALIC + I18n.translateToLocal("item.dyed"));
+15:30:42 -                                                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:748: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                 list.add(I18n.translateToLocal("item.modifiers." + entityequipmentslot.getName()));
+15:30:42 -                          ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:748: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                 list.add(I18n.translateToLocal("item.modifiers." + entityequipmentslot.getName()));
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                                                                                                                                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                                                                                                                                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                        ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:30:42 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                            ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                                                                                                                                                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                                                                                                                                                        ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:30:42 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                  ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                                                                                                                                                   ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                                                                                                                                                       ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                             ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:30:42 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:30:42 -                                                                 ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:798: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -             list.add(TextFormatting.BLUE + I18n.translateToLocal("item.unbreakable"));
+15:30:42 -                                            ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:798: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -             list.add(TextFormatting.BLUE + I18n.translateToLocal("item.unbreakable"));
+15:30:42 -                                                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:808: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canBreak"));
+15:30:42 -                                                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:808: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canBreak"));
+15:30:42 -                                                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:833: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canPlace"));
+15:30:42 -                                                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:833: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canPlace"));
+15:30:42 -                                                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:855: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                 list.add(I18n.translateToLocalFormatted("item.durability", new Object[] {Integer.valueOf(this.getMaxDamage() - this.getItemDamage()), Integer.valueOf(this.getMaxDamage())}));
+15:30:42 -                          ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:855: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:30:42 -                 list.add(I18n.translateToLocalFormatted("item.durability", new Object[] {Integer.valueOf(this.getMaxDamage() - this.getItemDamage()), Integer.valueOf(this.getMaxDamage())}));
+15:30:42 -                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:862: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -                 list.add(TextFormatting.DARK_GRAY + I18n.translateToLocalFormatted("item.nbt_tags", new Object[] {Integer.valueOf(this.getTagCompound().getKeySet().size())}));
+15:30:42 -                                                     ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\item\ItemStack.java:862: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:30:42 -                 list.add(TextFormatting.DARK_GRAY + I18n.translateToLocalFormatted("item.nbt_tags", new Object[] {Integer.valueOf(this.getTagCompound().getKeySet().size())}));
+15:30:42 -                                                         ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\util\DamageSource.java:238: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return entitylivingbase != null && I18n.canTranslate(s1) ? new TextComponentTranslation(s1, new Object[] {entityLivingBaseIn.getDisplayName(), entitylivingbase.getDisplayName()}): new TextComponentTranslation(s, new Object[] {entityLivingBaseIn.getDisplayName()});
+15:30:42 -                                            ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\util\DamageSource.java:238: warning: [deprecation] canTranslate(String) in I18n has been deprecated
+15:30:42 -         return entitylivingbase != null && I18n.canTranslate(s1) ? new TextComponentTranslation(s1, new Object[] {entityLivingBaseIn.getDisplayName(), entitylivingbase.getDisplayName()}): new TextComponentTranslation(s, new Object[] {entityLivingBaseIn.getDisplayName()});
+15:30:42 -                                                ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\entity\item\EntityItem.java:470: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return this.hasCustomName() ? this.getCustomNameTag() : I18n.translateToLocal("item." + this.getEntityItem().getUnlocalizedName());
+15:30:42 -                                                                 ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\entity\item\EntityItem.java:470: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return this.hasCustomName() ? this.getCustomNameTag() : I18n.translateToLocal("item." + this.getEntityItem().getUnlocalizedName());
+15:30:42 -                                                                     ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\world\chunk\Chunk.java:353: warning: [deprecation] getChunksLowestHorizon(int,int) in World has been deprecated
+15:30:42 -                             j1 = Math.min(j1, this.worldObj.getChunksLowestHorizon(l + enumfacing.getFrontOffsetX(), i1 + enumfacing.getFrontOffsetZ()));
+15:30:42 -                                                            ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\tileentity\TileEntitySign.java:41: error: cannot find symbol
+15:30:42 -             compound.setString("Text" + (i + 1), s);
+15:30:42 -                                                  ^
+15:30:42 - 
+15:30:42 -   symbol:   variable s
+15:30:42 -   location: class TileEntitySign
+15:30:42 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:30:42 -                                                                                         ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:30:42 -                                                                                             ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:30:42 -                                                                                                                                               ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:30:42 -                                                                                                                                                   ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\enchantment\Enchantment.java:176: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         String s = I18n.translateToLocal(this.getName());
+15:30:42 -                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\enchantment\Enchantment.java:176: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         String s = I18n.translateToLocal(this.getName());
+15:30:42 -                        ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\enchantment\Enchantment.java:183: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return level == 1 && this.getMaxLevel() == 1 ? s : s + " " + I18n.translateToLocal("enchantment.level." + level);
+15:30:42 -                                                                      ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\enchantment\Enchantment.java:183: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return level == 1 && this.getMaxLevel() == 1 ? s : s + " " + I18n.translateToLocal("enchantment.level." + level);
+15:30:42 -                                                                          ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockBush.java:55: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+15:30:42 -     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos p_189540_5_)
+15:30:42 -                 ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockBush.java:57: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+15:30:42 -         super.neighborChanged(state, worldIn, pos, blockIn, p_189540_5_);
+15:30:42 -              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockBush.java:80: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:30:42 -     public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+15:30:42 -                          ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockBush.java:86: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:30:42 -     public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos)
+15:30:42 -                          ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockBush.java:94: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+15:30:42 -     public boolean isOpaqueCube(IBlockState state)
+15:30:42 -                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockBush.java:99: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+15:30:42 -     public boolean isFullCube(IBlockState state)
+15:30:42 -                    ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockFlower.java:59: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+15:30:42 -     public IBlockState getStateFromMeta(int meta)
+15:30:42 -                        ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\world\storage\WorldSummary.java:100: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:30:42 -         return StringUtils.isNullOrEmpty(this.versionName) ? I18n.translateToLocal("selectWorld.versionUnknown") : this.versionName;
+15:30:42 -                                                              ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\world\storage\WorldSummary.java:100: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:30:42 -         return StringUtils.isNullOrEmpty(this.versionName) ? I18n.translateToLocal("selectWorld.versionUnknown") : this.versionName;
+15:30:42 -                                                                  ^
+15:30:42 - 
+15:30:42 - src\minecraft\net\minecraft\block\BlockDoublePlant.java:268: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+15:30:42 -     public IBlockState getStateFromMeta(int meta)
+15:30:42 -                        ^
+15:30:42 - 
+15:30:42 - 1 error
+15:30:42 - 100 warnings
+15:30:42 - ==================
+15:30:42 - 
+15:31:58 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:31:58 - !! Can not find client bins !!
+15:32:24 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:32:24 - !! Can not find client bins !!
+15:33:26 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:33:26 - !! Can not find client bins !!
+15:33:35 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:33:55 - '"C:\Program Files\Java\jdk1.8.0_121\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "jars\versions\1.11.2\1.11.2.jar;lib;lib\*;jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -sourcepath src\minecraft -d bin\minecraft @temp\java_src_client.txt' failed : 1
+15:33:55 - 
+15:33:55 - == ERRORS FOUND in JAVA CODE ==
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\world\chunk\storage\AnvilSaveConverter.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:55 - import net.minecraft.util.text.translation.I18n;
+15:33:55 -                                           ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\Block.java:946: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:55 -         return I18n.translateToLocal(this.getUnlocalizedName() + ".name");
+15:33:55 -                ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\Block.java:946: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:55 -         return I18n.translateToLocal(this.getUnlocalizedName() + ".name");
+15:33:55 -                    ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:275: warning: [deprecation] getMaterial(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getMaterial(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:280: warning: [deprecation] isFullBlock(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.isFullBlock(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:285: warning: [deprecation] canEntitySpawn(IBlockState,Entity) in Block has been deprecated
+15:33:55 -             return this.block.canEntitySpawn(this, entityIn);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:290: warning: [deprecation] getLightOpacity(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getLightOpacity(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:295: warning: [deprecation] getLightValue(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getLightValue(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:300: warning: [deprecation] isTranslucent(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.isTranslucent(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:305: warning: [deprecation] getUseNeighborBrightness(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getUseNeighborBrightness(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:310: warning: [deprecation] getMapColor(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getMapColor(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:315: warning: [deprecation] withRotation(IBlockState,Rotation) in Block has been deprecated
+15:33:55 -             return this.block.withRotation(this, rot);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:320: warning: [deprecation] withMirror(IBlockState,Mirror) in Block has been deprecated
+15:33:55 -             return this.block.withMirror(this, mirrorIn);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:325: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.isFullCube(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:330: warning: [deprecation] func_190946_v(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.func_190946_v(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:335: warning: [deprecation] getRenderType(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getRenderType(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:340: warning: [deprecation] getPackedLightmapCoords(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getPackedLightmapCoords(this, source, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:345: warning: [deprecation] getAmbientOcclusionLightValue(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getAmbientOcclusionLightValue(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:350: warning: [deprecation] isBlockNormalCube(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.isBlockNormalCube(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:355: warning: [deprecation] isNormalCube(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.isNormalCube(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:360: warning: [deprecation] canProvidePower(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.canProvidePower(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:365: warning: [deprecation] getWeakPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+15:33:55 -             return this.block.getWeakPower(this, blockAccess, pos, side);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:370: warning: [deprecation] hasComparatorInputOverride(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.hasComparatorInputOverride(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:375: warning: [deprecation] getComparatorInputOverride(IBlockState,World,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getComparatorInputOverride(this, worldIn, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:380: warning: [deprecation] getBlockHardness(IBlockState,World,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getBlockHardness(this, worldIn, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:385: warning: [deprecation] getPlayerRelativeBlockHardness(IBlockState,EntityPlayer,World,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getPlayerRelativeBlockHardness(this, player, worldIn, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:390: warning: [deprecation] getStrongPower(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+15:33:55 -             return this.block.getStrongPower(this, blockAccess, pos, side);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:395: warning: [deprecation] getMobilityFlag(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.getMobilityFlag(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:400: warning: [deprecation] getActualState(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getActualState(this, blockAccess, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:405: warning: [deprecation] getSelectedBoundingBox(IBlockState,World,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getSelectedBoundingBox(this, worldIn, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:410: warning: [deprecation] shouldSideBeRendered(IBlockState,IBlockAccess,BlockPos,EnumFacing) in Block has been deprecated
+15:33:55 -             return this.block.shouldSideBeRendered(this, blockAccess, pos, facing);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:415: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.isOpaqueCube(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:421: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getCollisionBoundingBox(this, worldIn, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:426: warning: [deprecation] addCollisionBoxToList(IBlockState,World,BlockPos,AxisAlignedBB,List<AxisAlignedBB>,Entity,boolean) in Block has been deprecated
+15:33:55 -             this.block.addCollisionBoxToList(this, worldIn, pos, p_185908_3_, p_185908_4_, p_185908_5_, p_185908_6_);
+15:33:55 -                       ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:431: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.getBoundingBox(this, blockAccess, pos);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:436: warning: [deprecation] collisionRayTrace(IBlockState,World,BlockPos,Vec3d,Vec3d) in Block has been deprecated
+15:33:55 -             return this.block.collisionRayTrace(this, worldIn, pos, start, end);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:441: warning: [deprecation] isFullyOpaque(IBlockState) in Block has been deprecated
+15:33:55 -             return this.block.isFullyOpaque(this);
+15:33:55 -                              ^
+15:33:55 - 
+15:33:55 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:446: warning: [deprecation] func_190949_e(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:33:55 -             return this.block.func_190949_e(this, p_191059_1_, p_191059_2_);
+15:33:56 -                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:451: warning: [deprecation] eventReceived(IBlockState,World,BlockPos,int,int) in Block has been deprecated
+15:33:56 -             return this.block.eventReceived(this, worldIn, pos, id, param);
+15:33:56 -                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:456: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+15:33:56 -             this.block.neighborChanged(this, worldIn, pos, blockIn, p_189546_4_);
+15:33:56 -                       ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\state\BlockStateContainer.java:461: warning: [deprecation] causesSuffocation(IBlockState) in Block has been deprecated
+15:33:56 -             return this.block.causesSuffocation(this);
+15:33:56 -                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\Item.java:359: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return I18n.translateToLocal(this.getUnlocalizedName(stack));
+15:33:56 -                ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\Item.java:359: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         return I18n.translateToLocal(this.getUnlocalizedName(stack));
+15:33:56 -                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\Item.java:462: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return I18n.translateToLocal(this.getUnlocalizedNameInefficiently(stack) + ".name").trim();
+15:33:56 -                ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\Item.java:462: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         return I18n.translateToLocal(this.getUnlocalizedNameInefficiently(stack) + ".name").trim();
+15:33:56 -                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\entity\Entity.java:2773: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -             return I18n.translateToLocal("entity." + s + ".name");
+15:33:56 -                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\entity\Entity.java:2773: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -             return I18n.translateToLocal("entity." + s + ".name");
+15:33:56 -                        ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:587: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                 return I18n.translateToLocal(nbttagcompound.getString("LocName"));
+15:33:56 -                        ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:587: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                 return I18n.translateToLocal(nbttagcompound.getString("LocName"));
+15:33:56 -                            ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:718: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(I18n.translateToLocalFormatted("item.color", new Object[] {String.format("#%06X", new Object[]{Integer.valueOf(nbttagcompound.getInteger("color"))})}));
+15:33:56 -                                  ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:718: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:33:56 -                         list.add(I18n.translateToLocalFormatted("item.color", new Object[] {String.format("#%06X", new Object[]{Integer.valueOf(nbttagcompound.getInteger("color"))})}));
+15:33:56 -                                      ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:722: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(TextFormatting.ITALIC + I18n.translateToLocal("item.dyed"));
+15:33:56 -                                                          ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:722: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                         list.add(TextFormatting.ITALIC + I18n.translateToLocal("item.dyed"));
+15:33:56 -                                                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:748: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                 list.add(I18n.translateToLocal("item.modifiers." + entityequipmentslot.getName()));
+15:33:56 -                          ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:748: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                 list.add(I18n.translateToLocal("item.modifiers." + entityequipmentslot.getName()));
+15:33:56 -                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                                                                                                                                ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                                                                                                                                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                        ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:781: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:33:56 -                         list.add(" " + I18n.translateToLocalFormatted("attribute.modifier.equals." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                            ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                                                                                                                                                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                                                                                                                                                        ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:785: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:33:56 -                         list.add(TextFormatting.BLUE + " " + I18n.translateToLocalFormatted("attribute.modifier.plus." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                  ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                                                                                                                                                   ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                                                                                                                                                       ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                             ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:790: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:33:56 -                         list.add(TextFormatting.RED + " " + I18n.translateToLocalFormatted("attribute.modifier.take." + attributemodifier.getOperation(), new Object[] {DECIMALFORMAT.format(d1), I18n.translateToLocal("attribute.name." + (String)entry.getKey())}));
+15:33:56 -                                                                 ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:798: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -             list.add(TextFormatting.BLUE + I18n.translateToLocal("item.unbreakable"));
+15:33:56 -                                            ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:798: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -             list.add(TextFormatting.BLUE + I18n.translateToLocal("item.unbreakable"));
+15:33:56 -                                                ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:808: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canBreak"));
+15:33:56 -                                                ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:808: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canBreak"));
+15:33:56 -                                                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:833: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canPlace"));
+15:33:56 -                                                ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:833: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -                 list.add(TextFormatting.GRAY + I18n.translateToLocal("item.canPlace"));
+15:33:56 -                                                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:855: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                 list.add(I18n.translateToLocalFormatted("item.durability", new Object[] {Integer.valueOf(this.getMaxDamage() - this.getItemDamage()), Integer.valueOf(this.getMaxDamage())}));
+15:33:56 -                          ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:855: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:33:56 -                 list.add(I18n.translateToLocalFormatted("item.durability", new Object[] {Integer.valueOf(this.getMaxDamage() - this.getItemDamage()), Integer.valueOf(this.getMaxDamage())}));
+15:33:56 -                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:862: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -                 list.add(TextFormatting.DARK_GRAY + I18n.translateToLocalFormatted("item.nbt_tags", new Object[] {Integer.valueOf(this.getTagCompound().getKeySet().size())}));
+15:33:56 -                                                     ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\item\ItemStack.java:862: warning: [deprecation] translateToLocalFormatted(String,Object...) in I18n has been deprecated
+15:33:56 -                 list.add(TextFormatting.DARK_GRAY + I18n.translateToLocalFormatted("item.nbt_tags", new Object[] {Integer.valueOf(this.getTagCompound().getKeySet().size())}));
+15:33:56 -                                                         ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\util\DamageSource.java:238: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return entitylivingbase != null && I18n.canTranslate(s1) ? new TextComponentTranslation(s1, new Object[] {entityLivingBaseIn.getDisplayName(), entitylivingbase.getDisplayName()}): new TextComponentTranslation(s, new Object[] {entityLivingBaseIn.getDisplayName()});
+15:33:56 -                                            ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\util\DamageSource.java:238: warning: [deprecation] canTranslate(String) in I18n has been deprecated
+15:33:56 -         return entitylivingbase != null && I18n.canTranslate(s1) ? new TextComponentTranslation(s1, new Object[] {entityLivingBaseIn.getDisplayName(), entitylivingbase.getDisplayName()}): new TextComponentTranslation(s, new Object[] {entityLivingBaseIn.getDisplayName()});
+15:33:56 -                                                ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\entity\item\EntityItem.java:470: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return this.hasCustomName() ? this.getCustomNameTag() : I18n.translateToLocal("item." + this.getEntityItem().getUnlocalizedName());
+15:33:56 -                                                                 ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\entity\item\EntityItem.java:470: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         return this.hasCustomName() ? this.getCustomNameTag() : I18n.translateToLocal("item." + this.getEntityItem().getUnlocalizedName());
+15:33:56 -                                                                     ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\world\chunk\Chunk.java:353: warning: [deprecation] getChunksLowestHorizon(int,int) in World has been deprecated
+15:33:56 -                             j1 = Math.min(j1, this.worldObj.getChunksLowestHorizon(l + enumfacing.getFrontOffsetX(), i1 + enumfacing.getFrontOffsetZ()));
+15:33:56 -                                                            ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\tileentity\TileEntitySign.java:41: error: cannot find symbol
+15:33:56 -             compound.setString("Text" + (i + 1), s);
+15:33:56 -                                                  ^
+15:33:56 - 
+15:33:56 -   symbol:   variable s
+15:33:56 -   location: class TileEntitySign
+15:33:56 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:33:56 -                                                                                         ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:33:56 -                                                                                             ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:33:56 -                                                                                                                                               ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\stats\Achievement.java:147: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         return this.statStringFormatter != null ? this.statStringFormatter.formatString(I18n.translateToLocal(this.achievementDescription)) : I18n.translateToLocal(this.achievementDescription);
+15:33:56 -                                                                                                                                                   ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\enchantment\Enchantment.java:176: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         String s = I18n.translateToLocal(this.getName());
+15:33:56 -                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\enchantment\Enchantment.java:176: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         String s = I18n.translateToLocal(this.getName());
+15:33:56 -                        ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\enchantment\Enchantment.java:183: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return level == 1 && this.getMaxLevel() == 1 ? s : s + " " + I18n.translateToLocal("enchantment.level." + level);
+15:33:56 -                                                                      ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\enchantment\Enchantment.java:183: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         return level == 1 && this.getMaxLevel() == 1 ? s : s + " " + I18n.translateToLocal("enchantment.level." + level);
+15:33:56 -                                                                          ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockBush.java:55: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+15:33:56 -     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos p_189540_5_)
+15:33:56 -                 ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockBush.java:57: warning: [deprecation] neighborChanged(IBlockState,World,BlockPos,Block,BlockPos) in Block has been deprecated
+15:33:56 -         super.neighborChanged(state, worldIn, pos, blockIn, p_189540_5_);
+15:33:56 -              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockBush.java:80: warning: [deprecation] getBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:33:56 -     public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+15:33:56 -                          ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockBush.java:86: warning: [deprecation] getCollisionBoundingBox(IBlockState,IBlockAccess,BlockPos) in Block has been deprecated
+15:33:56 -     public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos)
+15:33:56 -                          ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockBush.java:94: warning: [deprecation] isOpaqueCube(IBlockState) in Block has been deprecated
+15:33:56 -     public boolean isOpaqueCube(IBlockState state)
+15:33:56 -                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockBush.java:99: warning: [deprecation] isFullCube(IBlockState) in Block has been deprecated
+15:33:56 -     public boolean isFullCube(IBlockState state)
+15:33:56 -                    ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockFlower.java:59: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+15:33:56 -     public IBlockState getStateFromMeta(int meta)
+15:33:56 -                        ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\world\storage\WorldSummary.java:100: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+15:33:56 -         return StringUtils.isNullOrEmpty(this.versionName) ? I18n.translateToLocal("selectWorld.versionUnknown") : this.versionName;
+15:33:56 -                                                              ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\world\storage\WorldSummary.java:100: warning: [deprecation] translateToLocal(String) in I18n has been deprecated
+15:33:56 -         return StringUtils.isNullOrEmpty(this.versionName) ? I18n.translateToLocal("selectWorld.versionUnknown") : this.versionName;
+15:33:56 -                                                                  ^
+15:33:56 - 
+15:33:56 - src\minecraft\net\minecraft\block\BlockDoublePlant.java:268: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+15:33:56 -     public IBlockState getStateFromMeta(int meta)
+15:33:56 -                        ^
+15:33:56 - 
+15:33:56 - 1 error
+15:33:56 - 100 warnings
+15:33:56 - ==================
+15:33:56 - 
+15:34:36 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:34:36 - !! Can not find client bins !!
+15:35:04 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:36:36 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:52:53 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:53:00 - '"C:\Program Files\Java\jdk1.8.0_121\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "jars\versions\1.11.2\1.11.2.jar;lib;lib\*;jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -sourcepath src\minecraft -d bin\minecraft @temp\java_src_client.txt' failed : 1
+15:53:00 - 
+15:53:00 - == ERRORS FOUND in JAVA CODE ==
+15:53:00 - 
+15:53:00 - src\minecraft\com\mcbank\nessie\BlockButtonCreateSavings.java:2: error: class, interface, or enum expected
+15:53:00 - package net.minecraft.block;
+15:53:00 - ^
+15:53:00 - 
+15:53:00 - 1 error
+15:53:00 - ==================
+15:53:00 - 
+15:53:42 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:54:57 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:36:22 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:37:52 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:43:10 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:49:47 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:56:49 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:58:35 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:09:17 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:10:39 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:18:39 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:20:00 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:25:32 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:39:17 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:40:39 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+19:42:37 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:12:09 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:13:29 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:14:01 - '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' failed : -1
+20:14:01 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 43, in startclient
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1676, in startclient
+    self.runmc(forkcmd)
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1716, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' returned non-zero exit status -1
+20:14:27 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:15:23 - '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' failed : -1
+20:15:23 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 43, in startclient
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1676, in startclient
+    self.runmc(forkcmd)
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1716, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' returned non-zero exit status -1
+20:16:22 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:17:41 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:19:02 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:20:42 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:25:10 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:26:30 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:27:16 - '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' failed : -1
+20:27:16 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 43, in startclient
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1676, in startclient
+    self.runmc(forkcmd)
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1716, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' returned non-zero exit status -1
+20:27:22 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:28:17 - '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' failed : -1
+20:28:17 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 43, in startclient
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1676, in startclient
+    self.runmc(forkcmd)
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1716, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' returned non-zero exit status -1
+20:28:24 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:28:46 - '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' failed : -1
+20:28:46 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 43, in startclient
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1676, in startclient
+    self.runmc(forkcmd)
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1716, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' returned non-zero exit status -1
+20:29:11 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:30:49 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:35:14 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:37:09 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:39:48 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:41:12 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:43:44 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+20:45:17 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+21:11:16 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+21:11:22 - '"C:\Program Files\Java\jdk1.8.0_121\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "jars\versions\1.11.2\1.11.2.jar;lib;lib\*;jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -sourcepath src\minecraft -d bin\minecraft @temp\java_src_client.txt' failed : 1
+21:11:22 - 
+21:11:22 - == ERRORS FOUND in JAVA CODE ==
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2698: error: illegal start of expression
+21:11:22 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2698: error: illegal start of expression
+21:11:22 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:11:22 -               ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2698: error: ';' expected
+21:11:22 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:11:22 -                                              ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2698: error: <identifier> expected
+21:11:22 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:11:22 -                                                               ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2698: error: not a statement
+21:11:22 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:11:22 -                                                                    ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2698: error: ';' expected
+21:11:22 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:11:22 -                                                                               ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2698: error: ';' expected
+21:11:22 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:11:22 -                                                                                              ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2703: error: illegal start of expression
+21:11:22 -     protected void updateBlocks()
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2703: error: illegal start of expression
+21:11:22 -     protected void updateBlocks()
+21:11:22 -               ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2703: error: ';' expected
+21:11:22 -     protected void updateBlocks()
+21:11:22 -                                ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2707: error: illegal start of expression
+21:11:22 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2707: error: illegal start of expression
+21:11:22 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:11:22 -            ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:11:22 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:11:22 -                                   ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:11:22 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:11:22 -                                                             ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2707: error: not a statement
+21:11:22 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:11:22 -                                                              ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:11:22 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:11:22 -                                                                   ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:11:22 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:11:22 -                                                                                  ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2714: error: illegal start of expression
+21:11:22 -     public boolean canBlockFreezeWater(BlockPos pos)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2714: error: ';' expected
+21:11:22 -     public boolean canBlockFreezeWater(BlockPos pos)
+21:11:22 -                                       ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2714: error: ';' expected
+21:11:22 -     public boolean canBlockFreezeWater(BlockPos pos)
+21:11:22 -                                                    ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2719: error: illegal start of expression
+21:11:22 -     public boolean canBlockFreezeNoWater(BlockPos pos)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2719: error: ';' expected
+21:11:22 -     public boolean canBlockFreezeNoWater(BlockPos pos)
+21:11:22 -                                         ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2719: error: ';' expected
+21:11:22 -     public boolean canBlockFreezeNoWater(BlockPos pos)
+21:11:22 -                                                      ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2727: error: illegal start of expression
+21:11:22 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2727: error: ';' expected
+21:11:22 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:11:22 -                                  ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2727: error: <identifier> expected
+21:11:22 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:11:22 -                                                ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2727: error: not a statement
+21:11:22 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:11:22 -                                                         ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2727: error: ';' expected
+21:11:22 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:11:22 -                                                                   ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2763: error: illegal start of expression
+21:11:22 -     private boolean isWater(BlockPos pos)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2763: error: ';' expected
+21:11:22 -     private boolean isWater(BlockPos pos)
+21:11:22 -                            ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2763: error: ';' expected
+21:11:22 -     private boolean isWater(BlockPos pos)
+21:11:22 -                                         ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2771: error: illegal start of expression
+21:11:22 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2771: error: ';' expected
+21:11:22 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:11:22 -                             ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2771: error: <identifier> expected
+21:11:22 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:11:22 -                                           ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2771: error: not a statement
+21:11:22 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:11:22 -                                                    ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2771: error: ';' expected
+21:11:22 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:11:22 -                                                              ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2800: error: illegal start of expression
+21:11:22 -     public boolean checkLight(BlockPos pos)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2800: error: ';' expected
+21:11:22 -     public boolean checkLight(BlockPos pos)
+21:11:22 -                              ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2800: error: ';' expected
+21:11:22 -     public boolean checkLight(BlockPos pos)
+21:11:22 -                                           ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2816: error: illegal start of expression
+21:11:22 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2816: error: ';' expected
+21:11:22 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:11:22 -                            ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2816: error: ';' expected
+21:11:22 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:11:22 -                                                       ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2816: error: not a statement
+21:11:22 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:11:22 -                                                        ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2816: error: ';' expected
+21:11:22 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:11:22 -                                                                 ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2872: error: illegal start of expression
+21:11:22 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2872: error: ';' expected
+21:11:22 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:11:22 -                                 ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2872: error: ';' expected
+21:11:22 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:11:22 -                                                                  ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2872: error: not a statement
+21:11:22 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:11:22 -                                                                   ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:2872: error: ';' expected
+21:11:22 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:11:22 -                                                                      ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3013: error: illegal start of expression
+21:11:22 -     public boolean tickUpdates(boolean p_72955_1_)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3013: error: ';' expected
+21:11:22 -     public boolean tickUpdates(boolean p_72955_1_)
+21:11:22 -                               ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3013: error: ';' expected
+21:11:22 -     public boolean tickUpdates(boolean p_72955_1_)
+21:11:22 -                                                  ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3019: error: ';' expected
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:11:22 -                                                          ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3019: error: <identifier> expected
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:11:22 -                                                                         ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3019: error: not a statement
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:11:22 -                                                                                  ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3019: error: ';' expected
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:11:22 -                                                                                            ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3025: error: ';' expected
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:11:22 -                                                          ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3025: error: <identifier> expected
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:11:22 -                                                                                            ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3025: error: not a statement
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:11:22 -                                                                                                     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3025: error: ';' expected
+21:11:22 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:11:22 -                                                                                                                ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3030: error: illegal start of expression
+21:11:22 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3030: error: ';' expected
+21:11:22 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:11:22 -                                                             ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3030: error: ';' expected
+21:11:22 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:11:22 -                                                                                                      ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3030: error: not a statement
+21:11:22 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:11:22 -                                                                                                       ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3030: error: ';' expected
+21:11:22 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:11:22 -                                                                                                         ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3035: error: illegal start of expression
+21:11:22 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:11:22 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:11:22 -                                                   ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:11:22 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:11:22 -                                                                                            ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3035: error: not a statement
+21:11:22 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:11:22 -                                                                                             ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:11:22 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:11:22 -                                                                                                        ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:11:22 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:11:22 -                                                                                                                                                         ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: illegal start of expression
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: > expected
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -               ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: ';' expected
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -                      ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: illegal start of expression
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -                             ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: ';' expected
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -                                   ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: illegal start of expression
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -                                       ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3058: error: lambda expressions are not supported in -source 1.6
+21:11:22 -     {
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 -   (use -source 8 or higher to enable lambda expressions)
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: -> expected
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -                                                                                                                  ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3057: error: not a statement
+21:11:22 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:11:22 -                                                  ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3070: error: ';' expected
+21:11:22 -     }
+21:11:22 -      ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: not a statement
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -            ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: ';' expected
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -              ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -                                                         ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -                                                           ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -                                                                                              ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: '.' expected
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -                                                                                                     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: : expected
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -                                                                                                                ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: ')' expected
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -                                                                                                                 ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3072: error: not a statement
+21:11:22 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:11:22 -                                     ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3073: error: ';' expected
+21:11:22 -     {
+21:11:22 -      ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3074: error: illegal start of expression
+21:11:22 -         List<T> list = Lists.<T>newArrayList();
+21:11:22 -                 ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3074: error: illegal start of expression
+21:11:22 -         List<T> list = Lists.<T>newArrayList();
+21:11:22 -                      ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3074: error: ';' expected
+21:11:22 -         List<T> list = Lists.<T>newArrayList();
+21:11:22 -                             ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3074: error: illegal start of expression
+21:11:22 -         List<T> list = Lists.<T>newArrayList();
+21:11:22 -                                 ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3074: error: -> expected
+21:11:22 -         List<T> list = Lists.<T>newArrayList();
+21:11:22 -                                               ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3074: error: not a statement
+21:11:22 -         List<T> list = Lists.<T>newArrayList();
+21:11:22 -                                             ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3074: error: ';' expected
+21:11:22 -         List<T> list = Lists.<T>newArrayList();
+21:11:22 -                                                ^
+21:11:22 - 
+21:11:22 - src\minecraft\net\minecraft\world\World.java:3076: error: ')' expected
+21:11:22 -         for (Entity entity : this.playerEntities)
+21:11:22 -                           ^
+21:11:22 - 
+21:11:22 - 100 errors
+21:11:22 - ==================
+21:11:22 - 
+21:21:57 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+21:22:01 - '"C:\Program Files\Java\jdk1.8.0_121\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "jars\versions\1.11.2\1.11.2.jar;lib;lib\*;jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -sourcepath src\minecraft -d bin\minecraft @temp\java_src_client.txt' failed : 1
+21:22:01 - 
+21:22:01 - == ERRORS FOUND in JAVA CODE ==
+21:22:01 - 
+21:22:01 - src\minecraft\net\minecraft\world\World.java:2698: error: illegal start of expression
+21:22:01 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:22:01 -     ^
+21:22:01 - 
+21:22:01 - src\minecraft\net\minecraft\world\World.java:2698: error: illegal start of expression
+21:22:01 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:22:01 -               ^
+21:22:01 - 
+21:22:01 - src\minecraft\net\minecraft\world\World.java:2698: error: ';' expected
+21:22:01 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:22:01 -                                              ^
+21:22:01 - 
+21:22:01 - src\minecraft\net\minecraft\world\World.java:2698: error: <identifier> expected
+21:22:01 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:22:01 -                                                               ^
+21:22:01 - 
+21:22:01 - src\minecraft\net\minecraft\world\World.java:2698: error: not a statement
+21:22:01 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:22:01 -                                                                    ^
+21:22:01 - 
+21:22:01 - src\minecraft\net\minecraft\world\World.java:2698: error: ';' expected
+21:22:01 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:22:01 -                                                                               ^
+21:22:01 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2698: error: ';' expected
+21:22:02 -     protected void playMoodSoundAndCheckLight(int p_147467_1_, int p_147467_2_, Chunk chunkIn)
+21:22:02 -                                                                                              ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2703: error: illegal start of expression
+21:22:02 -     protected void updateBlocks()
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2703: error: illegal start of expression
+21:22:02 -     protected void updateBlocks()
+21:22:02 -               ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2703: error: ';' expected
+21:22:02 -     protected void updateBlocks()
+21:22:02 -                                ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2707: error: illegal start of expression
+21:22:02 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2707: error: illegal start of expression
+21:22:02 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:22:02 -            ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:22:02 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:22:02 -                                   ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:22:02 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:22:02 -                                                             ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2707: error: not a statement
+21:22:02 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:22:02 -                                                              ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:22:02 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:22:02 -                                                                   ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2707: error: ';' expected
+21:22:02 -     public void immediateBlockTick(BlockPos pos, IBlockState state, Random random)
+21:22:02 -                                                                                  ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2714: error: illegal start of expression
+21:22:02 -     public boolean canBlockFreezeWater(BlockPos pos)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2714: error: ';' expected
+21:22:02 -     public boolean canBlockFreezeWater(BlockPos pos)
+21:22:02 -                                       ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2714: error: ';' expected
+21:22:02 -     public boolean canBlockFreezeWater(BlockPos pos)
+21:22:02 -                                                    ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2719: error: illegal start of expression
+21:22:02 -     public boolean canBlockFreezeNoWater(BlockPos pos)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2719: error: ';' expected
+21:22:02 -     public boolean canBlockFreezeNoWater(BlockPos pos)
+21:22:02 -                                         ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2719: error: ';' expected
+21:22:02 -     public boolean canBlockFreezeNoWater(BlockPos pos)
+21:22:02 -                                                      ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2727: error: illegal start of expression
+21:22:02 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2727: error: ';' expected
+21:22:02 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:22:02 -                                  ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2727: error: <identifier> expected
+21:22:02 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:22:02 -                                                ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2727: error: not a statement
+21:22:02 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:22:02 -                                                         ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2727: error: ';' expected
+21:22:02 -     public boolean canBlockFreeze(BlockPos pos, boolean noWaterAdj)
+21:22:02 -                                                                   ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2763: error: illegal start of expression
+21:22:02 -     private boolean isWater(BlockPos pos)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2763: error: ';' expected
+21:22:02 -     private boolean isWater(BlockPos pos)
+21:22:02 -                            ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2763: error: ';' expected
+21:22:02 -     private boolean isWater(BlockPos pos)
+21:22:02 -                                         ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2771: error: illegal start of expression
+21:22:02 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2771: error: ';' expected
+21:22:02 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:22:02 -                             ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2771: error: <identifier> expected
+21:22:02 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:22:02 -                                           ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2771: error: not a statement
+21:22:02 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:22:02 -                                                    ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2771: error: ';' expected
+21:22:02 -     public boolean canSnowAt(BlockPos pos, boolean checkLight)
+21:22:02 -                                                              ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2800: error: illegal start of expression
+21:22:02 -     public boolean checkLight(BlockPos pos)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2800: error: ';' expected
+21:22:02 -     public boolean checkLight(BlockPos pos)
+21:22:02 -                              ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2800: error: ';' expected
+21:22:02 -     public boolean checkLight(BlockPos pos)
+21:22:02 -                                           ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2816: error: illegal start of expression
+21:22:02 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2816: error: ';' expected
+21:22:02 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:22:02 -                            ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2816: error: ';' expected
+21:22:02 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:22:02 -                                                       ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2816: error: not a statement
+21:22:02 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:22:02 -                                                        ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2816: error: ';' expected
+21:22:02 -     private int getRawLight(BlockPos pos, EnumSkyBlock lightType)
+21:22:02 -                                                                 ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2872: error: illegal start of expression
+21:22:02 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2872: error: ';' expected
+21:22:02 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:22:02 -                                 ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2872: error: ';' expected
+21:22:02 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:22:02 -                                                                  ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2872: error: not a statement
+21:22:02 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:22:02 -                                                                   ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:2872: error: ';' expected
+21:22:02 -     public boolean checkLightFor(EnumSkyBlock lightType, BlockPos pos)
+21:22:02 -                                                                      ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3013: error: illegal start of expression
+21:22:02 -     public boolean tickUpdates(boolean p_72955_1_)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3013: error: ';' expected
+21:22:02 -     public boolean tickUpdates(boolean p_72955_1_)
+21:22:02 -                               ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3013: error: ';' expected
+21:22:02 -     public boolean tickUpdates(boolean p_72955_1_)
+21:22:02 -                                                  ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3019: error: ';' expected
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:22:02 -                                                          ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3019: error: <identifier> expected
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:22:02 -                                                                         ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3019: error: not a statement
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:22:02 -                                                                                  ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3019: error: ';' expected
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(Chunk chunkIn, boolean p_72920_2_)
+21:22:02 -                                                                                            ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3025: error: ';' expected
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:22:02 -                                                          ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3025: error: <identifier> expected
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:22:02 -                                                                                            ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3025: error: not a statement
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:22:02 -                                                                                                     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3025: error: ';' expected
+21:22:02 -     public List<NextTickListEntry> getPendingBlockUpdates(StructureBoundingBox structureBB, boolean p_175712_2_)
+21:22:02 -                                                                                                                ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3030: error: illegal start of expression
+21:22:02 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3030: error: ';' expected
+21:22:02 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:22:02 -                                                             ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3030: error: ';' expected
+21:22:02 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:22:02 -                                                                                                      ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3030: error: not a statement
+21:22:02 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:22:02 -                                                                                                       ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3030: error: ';' expected
+21:22:02 -     public List<Entity> getEntitiesWithinAABBExcludingEntity(@Nullable Entity entityIn, AxisAlignedBB bb)
+21:22:02 -                                                                                                         ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3035: error: illegal start of expression
+21:22:02 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:22:02 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:22:02 -                                                   ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:22:02 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:22:02 -                                                                                            ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3035: error: not a statement
+21:22:02 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:22:02 -                                                                                             ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:22:02 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:22:02 -                                                                                                        ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3035: error: ';' expected
+21:22:02 -     public List<Entity> getEntitiesInAABBexcluding(@Nullable Entity entityIn, AxisAlignedBB boundingBox, @Nullable Predicate <? super Entity > predicate)
+21:22:02 -                                                                                                                                                         ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: illegal start of expression
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: > expected
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -               ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: ';' expected
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -                      ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: illegal start of expression
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -                             ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: ';' expected
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -                                   ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: illegal start of expression
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -                                       ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3058: error: lambda expressions are not supported in -source 1.6
+21:22:02 -     {
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 -   (use -source 8 or higher to enable lambda expressions)
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: -> expected
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -                                                                                                                  ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3057: error: not a statement
+21:22:02 -     public <T extends Entity> List<T> getEntities(Class <? extends T > entityType, Predicate <? super T > filter)
+21:22:02 -                                                  ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3070: error: ';' expected
+21:22:02 -     }
+21:22:02 -      ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: not a statement
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -            ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: ';' expected
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -              ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -                                                         ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -                                                           ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: illegal start of expression
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -                                                                                              ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: '.' expected
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -                                                                                                     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: : expected
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -                                                                                                                ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: ')' expected
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -                                                                                                                 ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3072: error: not a statement
+21:22:02 -     public <T extends Entity> List<T> getPlayers(Class <? extends T > playerType, Predicate <? super T > filter)
+21:22:02 -                                     ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3073: error: ';' expected
+21:22:02 -     {
+21:22:02 -      ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3074: error: illegal start of expression
+21:22:02 -         List<T> list = Lists.<T>newArrayList();
+21:22:02 -                 ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3074: error: illegal start of expression
+21:22:02 -         List<T> list = Lists.<T>newArrayList();
+21:22:02 -                      ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3074: error: ';' expected
+21:22:02 -         List<T> list = Lists.<T>newArrayList();
+21:22:02 -                             ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3074: error: illegal start of expression
+21:22:02 -         List<T> list = Lists.<T>newArrayList();
+21:22:02 -                                 ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3074: error: -> expected
+21:22:02 -         List<T> list = Lists.<T>newArrayList();
+21:22:02 -                                               ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3074: error: not a statement
+21:22:02 -         List<T> list = Lists.<T>newArrayList();
+21:22:02 -                                             ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3074: error: ';' expected
+21:22:02 -         List<T> list = Lists.<T>newArrayList();
+21:22:02 -                                                ^
+21:22:02 - 
+21:22:02 - src\minecraft\net\minecraft\world\World.java:3076: error: ')' expected
+21:22:02 -         for (Entity entity : this.playerEntities)
+21:22:02 -                           ^
+21:22:02 - 
+21:22:02 - 100 errors
+21:22:02 - ==================
+21:22:02 - 
+21:23:33 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+21:24:54 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+21:26:16 - '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' failed : 1
+21:26:16 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 43, in startclient
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1676, in startclient
+    self.runmc(forkcmd)
+  File "C:\Users\Payton\Desktop\MCP\runtime\commands.py", line 1716, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\src\minecraft;..\jars\versions\1.11.2\1.11.2.jar;..\lib;..\lib\*;..\jars\libraries\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;..\jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;..\jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;..\jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;..\jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;..\jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;..\jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;..\jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;..\jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;..\jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;..\jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;..\jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;..\jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;..\jars\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;..\jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;..\jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;..\jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;..\jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;..\jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;..\jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;..\jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;..\jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;..\jars\libraries\com\mojang\realms\1.10.14\realms-1.10.14.jar;..\jars\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;..\jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;..\jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;..\jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;..\jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;..\jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;..\jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -Djava.library.path=..\jars\versions\1.11.2\1.11.2-natives Start' returned non-zero exit status 1
+21:26:24 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+21:28:14 - "scalac" is not found on the PATH.  Scala files will not be recompiled
