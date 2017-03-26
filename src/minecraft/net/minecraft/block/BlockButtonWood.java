@@ -25,6 +25,7 @@ import net.minecraft.world.World;
 public class BlockButtonWood extends BlockButton
 {
     private int count;
+    public static SavingsBalance current;
     protected BlockButtonWood()
     {
         super(2);
@@ -39,6 +40,11 @@ public class BlockButtonWood extends BlockButton
     protected void playReleaseSound(World worldIn, BlockPos pos)
     {
         worldIn.playSound((EntityPlayer)null, pos, SoundEvents.BLOCK_WOOD_BUTTON_CLICK_OFF, SoundCategory.BLOCKS, 0.3F, 0.5F);
+    }
+    
+    public static SavingsBalance getBalance()
+    {
+    	return current;
     }
 
     @Override
@@ -61,7 +67,7 @@ public class BlockButtonWood extends BlockButton
 
             try
             {
-                customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca?key=37eda199c5d3895687d139770b1d9c9a");
+                customerInfo = new URL("http://api.reimaginebanking.com/accounts/58d7bf181756fc834d909c86?key=37eda199c5d3895687d139770b1d9c9a");
                 BufferedReader in = new BufferedReader(
                     new InputStreamReader(customerInfo.openStream()));
                 String inputLine;
@@ -86,10 +92,10 @@ public class BlockButtonWood extends BlockButton
 
             Customer customer = new Customer();
             Gson gson = new Gson();
-            SavingsBalance current = gson.fromJson(json, SavingsBalance.class);
+            current = gson.fromJson(json, SavingsBalance.class);
 
-
-            Minecraft.getMinecraft().player.sendChatMessage("Your current balance is: " + current.getBalance() + " coins.");
+            if (count % 2 == 0)
+            	Minecraft.getMinecraft().player.sendChatMessage("Your current balance is: " + current.getBalance() + " coins.");
             
 
             return true;

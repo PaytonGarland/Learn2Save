@@ -1,10 +1,13 @@
 package net.minecraft.block;
 
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 
 import com.google.gson.Gson;
 import com.mcbank.nessie.Customer;
@@ -20,6 +23,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
@@ -126,38 +130,67 @@ public class BlockPressurePlateWeighted extends BlockBasePressurePlate
         if (!flag1 && flag)
         {
             this.playClickOffSound(worldIn, pos);
+            int goalToRemove = 0;
+            SavingsBalance current = BlockButtonWood.getBalance();
+            
+            if (current.getBalance() >= 10000)
+            {
+            	Minecraft.getMinecraft().player.sendChatMessage("Congratulations! You turned in 10,000 coins for 1000 diamonds.");
+            	goalToRemove = 10000;
+            } else if (current.getBalance() >= 1000)
+            {
+            	Minecraft.getMinecraft().player.sendChatMessage("Congratulations! You turned in 1,000 coins for 50 diamonds.");
+            	goalToRemove = 1000;
+            } else if (current.getBalance() >= 500)
+            {
+            	Minecraft.getMinecraft().player.sendChatMessage("Congratulations! You turned in 500 coins for 10 diamonds.");
+            	goalToRemove = 500;
+            } else if (current.getBalance() >= 100)
+            {
+            	Minecraft.getMinecraft().player.sendChatMessage("Congratulations! You turned in 100 coins for 1 diamond.");
+            	goalToRemove = 100;
+            } else
+            {
+            	Minecraft.getMinecraft().player.sendChatMessage("Sorry, not enough coins!");
+            	goalToRemove = 0;
+            }
+           
+            if (goalToRemove != 0)
+            {
+    	        try
+    	        {
+    				String urlParameters = "{\"medium\": \"balance\",\"transaction_date\": \"2017-03-26\",\"amount\": " + goalToRemove + ",\"description\": \"Remove for goal\"}";
+    	            System.out.println(urlParameters);
+    	            byte[] postData = urlParameters.getBytes(StandardCharsets.UTF_8);
+    	            int postDataLength = postData.length;
+    	            String request = "http://api.reimaginebanking.com/accounts/58d7bf181756fc834d909c86/withdrawals?key=37eda199c5d3895687d139770b1d9c9a";
+    	            URL url = new URL(request);
+    	            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+    	            conn.setDoOutput(true);
+    	            conn.setInstanceFollowRedirects(false);
+    	            conn.setRequestMethod("POST");
+    	            conn.setRequestProperty("Content-Type", "application/json");
+    	            conn.setRequestProperty("Accept", "application/json");
+    	            conn.setUseCaches(false);
+    	            DataOutputStream wr = new DataOutputStream(conn.getOutputStream());
+    	            wr.write(postData);
+    	
+    	
+    	            BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+    	    		
+    	    		String json = "";
+    	    		while ((json = rd.readLine()) != null)
+    	                System.out.println(json);
+    	            rd.close();
+    	        }
+    	        catch (Exception e)
+    	        {
+    	        }
+            }
         }
         else if (flag1 && !flag)
         {
             this.playClickOnSound(worldIn, pos);
-        }
-
-        String json = "";
-        URL customerInfo;
-
-        try
-        {
-            customerInfo = new URL("http://api.reimaginebanking.com/customers/58d603b11756fc834d9064ca/accounts?key=37eda199c5d3895687d139770b1d9c9a");
-            BufferedReader in = new BufferedReader(
-                new InputStreamReader(customerInfo.openStream()));
-            String inputLine;
-
-            while ((inputLine = in.readLine()) != null)
-            {
-                json = json + inputLine;
-            }
-
-            in.close();
-        }
-        catch (MalformedURLException e)
-        {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        catch (IOException e)
-        {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
         }
 
 //		Gson gson = new Gson();

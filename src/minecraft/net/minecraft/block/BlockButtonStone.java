@@ -64,7 +64,7 @@ public class BlockButtonStone extends BlockButton
             {
                 try
                 {
-                    String urlParameters  = "{\"type\": \"Checking\",\"nickname\": \"Bob\",\"rewards\": 0,\"balance\": 0}";
+                    String urlParameters  = "{\"type\": \"Savings\",\"nickname\": \"Payton\",\"rewards\": 0,\"balance\": 0}";
                     System.out.println(urlParameters);
                     byte[] postData       = urlParameters.getBytes(StandardCharsets.UTF_8);
                     int    postDataLength = postData.length;

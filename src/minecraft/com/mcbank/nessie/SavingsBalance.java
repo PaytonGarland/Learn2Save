@@ -6,7 +6,7 @@ public class SavingsBalance
     private String type;
     private String nickname;
     private String rewards;
-    private String balance;
+    private int balance;
     private String customer_id;
 
     public SavingsBalance()
@@ -53,12 +53,12 @@ public class SavingsBalance
         this.rewards = rewards;
     }
 
-    public String getBalance()
+    public int getBalance()
     {
         return balance;
     }
 
-    public void setBalance(String balance)
+    public void setBalance(int balance)
     {
         this.balance = balance;
     }

@@ -198,15 +198,13 @@ public class BlockLever extends Block
             worldIn.notifyNeighborsOfStateChange(pos, this, false);
             EnumFacing enumfacing = ((BlockLever.EnumOrientation)state.getValue(FACING)).getFacing();
             worldIn.notifyNeighborsOfStateChange(pos.offset(enumfacing.getOpposite()), this, false);
-
             try
             {
-            	coins++;
-                String urlParameters  = "{\"medium\": \"balance\",\"transaction_date\": \"2017-03-25\",\"amount\": " + coins + ",\"description\": Coin deposit}";
+    			String urlParameters = "{\"medium\": \"balance\",\"transaction_date\": \"2017-03-26\",\"amount\": 1,\"description\": \"Coin deposit\"}";
                 System.out.println(urlParameters);
                 byte[] postData = urlParameters.getBytes(StandardCharsets.UTF_8);
                 int postDataLength = postData.length;
-                String request = "http://api.reimaginebanking.com/accounts/58d70e251756fc834d906b36/deposits?key=37eda199c5d3895687d139770b1d9c9a";
+                String request = "http://api.reimaginebanking.com/accounts/58d7bf181756fc834d909c86/deposits?key=37eda199c5d3895687d139770b1d9c9a";
                 URL url = new URL(request);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setDoOutput(true);
@@ -225,12 +223,11 @@ public class BlockLever extends Block
         		while ((json = rd.readLine()) != null)
                     System.out.println(json);
                 rd.close();
+                Minecraft.getMinecraft().player.sendChatMessage("1 coin has been deposited.");
             }
             catch (Exception e)
             {
             }
-
-            Minecraft.getMinecraft().player.sendChatMessage("1 coin has been deposited.");
             return true;
         }
     }
