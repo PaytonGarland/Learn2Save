@@ -7,18 +7,52 @@
 		<item value="1" key="rootMode"/>
 		<item value="false" key="linkWithEditor"/>
 	</section>
-	<section name="SourceActionDialog.methods">
-		<item value="false" key="SynchronizedModifier"/>
-		<item value="false" key="Comments"/>
-		<item value="1" key="VisibilityModifier"/>
-		<item value="false" key="FinalModifier"/>
-	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
 		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="678" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="889" key="DIALOG_HEIGHT"/>
+		<item value="630" key="DIALOG_X_ORIGIN"/>
+		<item value="9" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\Payton\Desktop\MCP\eclipse\p4\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_121\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\Payton\Desktop\MCP\eclipse\p4\doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="p4">
+				<item value="C:\Users\Payton\Desktop\MCP\eclipse\p4\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Payton\Desktop\MCP\eclipse\p4\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -28,14 +62,14 @@
 	<section name="BuildPathsPropertyPage">
 		<item value="2" key="pageIndex"/>
 	</section>
-	<section name="completion_proposal_size">
-	</section>
-	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item value="678" key="DIALOG_WIDTH"/>
+	<section name="JavadocWizardDialog">
+		<item value="818" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="889" key="DIALOG_HEIGHT"/>
-		<item value="630" key="DIALOG_X_ORIGIN"/>
-		<item value="9" key="DIALOG_Y_ORIGIN"/>
+		<item value="698" key="DIALOG_HEIGHT"/>
+		<item value="560" key="DIALOG_X_ORIGIN"/>
+		<item value="59" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>

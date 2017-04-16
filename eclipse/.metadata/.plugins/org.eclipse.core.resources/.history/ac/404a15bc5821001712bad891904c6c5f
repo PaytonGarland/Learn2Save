@@ -1,0 +1,160 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class IntervalTree<T extends Comparable<T>> implements IntervalTreeADT<T> {
+	
+	// TODO declare any data members needed for this class
+	private IntervalNode<T> root;
+	private int size;
+	private int height;
+
+	@Override
+	public IntervalNode<T> getRoot() {
+		return root;
+	}
+
+	@Override
+	public void insert(IntervalADT<T> interval)
+					throws IllegalArgumentException {
+		insertHelper(root, interval);
+	}
+	
+	private void insertHelper(IntervalNode<T> curr, IntervalADT<T> interval)
+					throws IllegalArgumentException
+	{
+		if (curr == null) return;		
+		if (interval.compareTo(curr.getInterval()) > 0)
+		{
+			if (curr.getRightNode() == null)
+			{
+				curr.setRightNode(new IntervalNode(interval));
+				curr.getRightNode().setMaxEnd(interval.getEnd());
+				return;
+			}
+			else
+			{
+				insertHelper(curr.getRightNode(), interval);
+			}
+		}
+		else if (interval.compareTo(curr.getInterval()) < 0)
+		{
+			if (curr.getLeftNode() == null)
+			{
+				curr.setLeftNode(new IntervalNode(interval));
+				curr.getLeftNode().setMaxEnd(interval.getEnd());
+				return;
+			}
+			else
+			{
+				insertHelper(curr.getLeftNode(), interval);
+			}
+		}
+		else
+		{
+			throw new IllegalArgumentException();
+		}
+		return;
+	}
+
+	@Override
+	public void delete(IntervalADT<T> interval)
+					throws IntervalNotFoundException, IllegalArgumentException {
+		// TODO Auto-generated method stub
+		deleteHelper(root, interval);
+
+	}
+
+	@Override
+	public IntervalNode<T> deleteHelper(IntervalNode<T> node,
+					IntervalADT<T> interval)
+					throws IntervalNotFoundException, IllegalArgumentException {
+		// TODO Auto-generated method stub
+		if (node == null) throw new IntervalNotFoundException(null);
+		if (node.getInterval().overlaps(interval))
+		{
+			if (node.getRightNode() != null)
+			{
+				node.setInterval(node.getSuccessor().getInterval());
+				deleteHelper(node.getSuccessor(), interval);
+				recalculateMaxEnd(node);
+				return node;
+			}
+			else
+			{
+				return node.getLeftNode();
+			}
+		}
+		if (node.getInterval().getStart().compareTo(interval.getStart()) > 0)
+		{
+			node.setRightNode(deleteHelper(node.getRightNode(), interval));
+			recalculateMaxEnd(node);
+			return node;
+		}
+		else
+		{
+			node.setLeftNode((deleteHelper(node.getLeftNode(), interval));
+			recalculateMaxEnd(node);
+			return node;
+		}
+	}
+	
+	private T recalculateMaxEnd(IntervalNode<T> node)
+	{
+		if (node.getLeftNode() != null)
+			if (node.getLeftNode().getMaxEnd().compareTo(node.getMaxEnd()) > 0)
+				node.setMaxEnd(node.getLeftNode().getMaxEnd());
+		if (node.getRightNode() != null)
+			if (node.getRightNode().getMaxEnd().compareTo(node.getMaxEnd()) > 0)
+				node.setMaxEnd(node.getRightNode().getMaxEnd());
+		return node.getMaxEnd();
+	}
+
+	@Override
+	public List<IntervalADT<T>> findOverlapping(
+					IntervalADT<T> interval) {
+		// TODO Auto-generated method stub
+		List<IntervalADT<T>> result = new ArrayList<IntervalADT<T>>();
+		findOverlappingHelper(root, interval, result);
+		return result;
+	}
+	
+	private void findOverlappingHelper(IntervalNode node, IntervalADT<T> interval,
+			List<IntervalADT<T>> result)
+	{
+		if (node == null) return;
+		if (node.getInterval().overlaps(interval))
+			result.add(node.getInterval());
+		if (node.getLeftNode().getMaxEnd().compareTo(node.getInterval().getStart()) >= 0)
+			findOverlappingHelper(node.getLeftNode(), interval, result);
+		if (node.getRightNode().getMaxEnd().compareTo(node.getInterval().getStart()) >= 0)
+			findOverlappingHelper(node.getRightNode(), interval, result);
+		
+	}
+
+	@Override
+	public List<IntervalADT<T>> searchPoint(T point) {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public int getSize() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public int getHeight() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public boolean contains(IntervalADT<T> interval) {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void printStats() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

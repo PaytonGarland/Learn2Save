@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="net.minecraft.util.text.ITextComponent.Serializer"/>
 <fullyQualifiedTypeName name="com.mcbank.nessie.Customer"/>
 <fullyQualifiedTypeName name="net.minecraft.block.BlockDirectional"/>
@@ -19,4 +18,5 @@
 <fullyQualifiedTypeName name="com.mcbank.nessie.Weather"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.NameValuePair"/>
 <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,101 @@
+/////////////////////////////////////////////////////////////////////////////
+// Semester:         CS367 Spring 2017 
+// PROJECT:          p4
+// FILE:             Interval.java
+// Team 1:  		 Coding Crew
+// Authors:
+// Author1: (Ali Zaidi, azaidi3@wisc.edu, NetID: 9075844309, lecture 001)
+// Author2: (Payton Garland, pgarland2@wisc.edu, NetID: 9074284267,lecture 001)
+// Author3: (Zian Wang, zwang883@wisc.edu, NetID: 9075902156, lecture 001)
+// Author4: (Xinyu Hu, xhu243@wisc.edu, NetID: 9075185109, lecture 001)
+// Author5: (Vedantika Chaudhary, vchaudhary3@wisc.edu,Net ID: 9075006313,
+//																lecture 001)
+//////////////////////////// 80 columns wide //////////////////////////////////
+public class Interval<T extends Comparable<T>> implements IntervalADT<T> {
+
+	private T start;
+	private T end;
+	private String label;
+
+    public Interval(T start, T end, String label) {
+    	this.start = start;
+    	this.end = end;
+    	this.label = label;
+    }
+
+    @Override
+    public T getStart() {
+    	return this.start;
+    }
+
+    @Override
+    public T getEnd() {
+    	return this.end;
+    }
+
+    @Override
+    public String getLabel() {
+    	return this.label;
+    }
+
+    @Override
+    public boolean overlaps(IntervalADT<T> other) {
+    	// Check if other's end is less than this start
+    	if (other.getEnd().compareTo(this.getStart()) < 0)
+    	{
+    		return false;
+    	}
+    	// or if this end is greater than other's start
+    	else if (this.getEnd().compareTo(other.getStart()) < 0)
+    	{
+    		return false;
+    	}
+    	return true;
+    		
+    }
+
+    @Override
+    public boolean contains(T point) {
+    	// Check if point is within this interval
+    	if (this.getStart().compareTo(point) <= 0 &&
+    			this.getEnd().compareTo(point) >= 0)
+    		return true;
+    	return false;
+    }
+
+    @Override
+    public int compareTo(IntervalADT<T> other) {
+    	// Check if the starts are different
+    	if (this.getStart().compareTo(other.getStart()) > 0)
+    	{
+    		return 1;
+    	} 
+    	else if (this.getStart().compareTo(other.getStart()) < 0)
+    	{
+    		return -1;
+    	} 
+    	else
+    	{
+    		// If the starts are equal, check for end differences
+    		if (this.getEnd().compareTo(other.getEnd()) > 0)
+        	{
+        		return -1;
+        	} 
+    		else if (this.getEnd().compareTo(other.getEnd()) < 0)
+        	{
+        		return 1;
+        	} 
+    		else
+        	{
+        		return 0;
+        	}
+    	}
+    }
+    
+    @Override
+	public String toString()
+	{
+    	return label + " [" + this.getStart() + ", " + this.getEnd() + "]";
+	}
+
+}
